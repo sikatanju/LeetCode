@@ -4,33 +4,25 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class JustForPractice    {
-    public int count(int[] nums)    {
-        Set<Integer> hashSet = new HashSet<Integer>();
+    private static int[] fibo;
+
+    public static int fiboo(int n)   {
+        if (n<=1)
+            return n;
         
-        for (int i=0; i<nums.length; i++)   {
-            hashSet.add(nums[i]);
-            hashSet.add(reverse(nums[i]));
-        }
+        if (fibo[n] != 0)
+            return fibo[n];
 
-        return hashSet.size();
-    }
-
-    public int reverse(int num) {
-        int rev = 0;
-        while (num > 0) {
-            rev *= 10;
-            rev += (num % 10);
-            num /= 10;
-        }
-        return rev;
+        fibo[n] = (fiboo(n-1) + fiboo(n-2));
+        // System.out.print(fibo[n] + ", ");
+        return fibo[n];
     }
 
     public static void main(String[] args)  {
-        int[] ara = {1, 1, 1};
-        // int[] stu = {1, 2, 3, 6};
-
-        JustForPractice obj = new JustForPractice();
-        System.out.println(obj.count(ara));
-        
+        int n = 6;
+        // System.out.print ("0, 1, ");
+        fibo = new int[n+1];        
+        System.out.println (fiboo(n));
+        // JustForPractice obj = new JustForPractice();
     }
 }

@@ -1,0 +1,61 @@
+// List of problem solved. 
+// Started on 22/10/2022;
+
+*** Arrays : 
+
+1. 22/10/2022
+	i. Build Array from permutation -- https://leetcode.com/problems/build-array-from-permutation/                    -- Difficulty : Easy
+
+2. 24/10/22
+	i. Two Sum -- https://leetcode.com/problems/two-sum/                                                              -- Difficulty : Easy
+	ii. Remove Duplicates from Sorted Array -- https://leetcode.com/problems/remove-duplicates-from-sorted-array/     -- Difficulty : Easy
+
+
+3. 25/10/22
+	i. Remove Element --  https://leetcode.com/problems/remove-element/                                               -- Difficulty : Easy
+	
+4. 26/10/22
+	i. *Container With Most Water -- https://leetcode.com/problems/container-with-most-water/                         -- Difficulty : Medium
+	ii. *Search Insert Position -- https://leetcode.com/problems/search-insert-position/                              -- Difficulty : Easy
+	
+5. 29/10/22
+	i. Minimum Number of Moves to Seat Everyone -- https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone/  -- Difficulty : Easy
+	
+6. 30/10/22
+	i. Sign of the Product of an Array -- https://leetcode.com/problems/sign-of-the-product-of-an-array/                    -- Difficulty : Easy
+	ii. Find First and Last Position of Element in Sorted Array - /find-first-and-last-position-of-element-in-sorted-array/ -Difficulty : Medium
+	// This above one is the first *Medium difficulty problem, which I've solved by mySelf without any help.
+		
+7. 31/10/22
+	i. Count Number of Distinct Integers After Reverse Operations -- /count-number-of-distinct-integers-after-reverse-operations/ -Difficulty : Medium
+	// Needed help about what Data Structure to use. Since, Set doesn't contains any duplicate, Implemented using set.
+	
+8. 01/11/22
+	i. 3Sum (Tried (couldn't complete), 2 Submissions) -- https://leetcode.com/problems/3sum/                	             -- Difficulty : Medium
+	
+9. 04/11/22
+	i. 3Sum -- (*Needed Help -- Completed with 35 ms runtime)               	                                             -- Difficulty : Medium
+
+10. 05/11/22
+	i. PlusOne (*Needed Help) -- https://leetcode.com/problems/plus-one/               	                                     -- Difficulty : Easy
+
+11. 06/11/22
+	i. Permutations -- https://leetcode.com/problems/permutations/]               	                                -- Difficulty : Medium
+	
+	07/11/22 -- Permutations
+	08/11/22 - Permutations - Later (After learning backTracking).
+	
+12. 11/11/22
+	i. Merger Sorted Array : https://leetcode.com/problems/merge-sorted-array/        	                                     -- Difficulty : Easy
+
+13. 12/11/22
+	i. Best Time to Buy and Sell Stock -- https://leetcode.com/problems/best-time-to-buy-and-sell-stock                      -- Difficulty : Easy
+
+14. 13/11/22
+	i. Valid Parenthesis -- https://leetcode.com/problems/valid-parentheses/       	                                         -- Difficulty : Easy
+		// Since I've done this problem during Data Structure course. It took only one submission.
+
+	*** After two week off (due to exam and Pabna)...
+
+15. 28/11/22
+	i. Climbing Stairs -- https://leetcode.com/problems/climbing-stairs/       	                                           -- Difficulty : Easy

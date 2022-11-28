@@ -1,7 +1,11 @@
-import java.util.*;
+import java.util.Arrays;
+import java.util.List;
+import java.util.ArrayList;
 
 public class permutations {
-    public static int[] repeat(int[] araa) {
+    // This works only for upto four length of input array.
+    public int[] repeat(int[] araa) {
+        List<List<Integer>> returnList = new ArrayList<>();
         int [] ara = new int[araa.length];
         int len = araa.length;
 
@@ -15,11 +19,15 @@ public class permutations {
                 int count = 0, upto = len - 2;
                 int jj = j;
                 while (count++ < upto)    {
+                    List<Integer> tempList = new ArrayList<>();
+
                     if (j==len)
                         j = 0;
 
                     ara[0] = araa[i];
                     ara[1] = araa[j];
+                    tempList.add(araa[i]);
+                    tempList.add(araa[j]);
                     int last;
                     if (jj+1 == len)
                         last = 0;
@@ -41,7 +49,7 @@ public class permutations {
                         if (ara[k] == araa[last])
                             last++;
                         else    {
-                            ara[k++] = araa[last++];
+                            tempList.add(araa[last++]);
                         }
                         if (last == len)  {
                             if (i==0 && j!=1)
@@ -52,7 +60,9 @@ public class permutations {
                                 last = 0;
                         }
                     }
-                    System.out.println (Arrays.toString(ara));
+                    // List<Integer> clone = new ArrayList<>(tempList);
+                    returnList.add(tempList);
+                    System.out.println (Arrays.toString(tempList.toArray()));
                 }
             }
         }
@@ -60,8 +70,9 @@ public class permutations {
         return arra;
     }
     public static void main(String[] args)  {
-        int[] ara = {1, 2, 3, 4, 5, 6};
-        repeat(ara);
+        int[] ara = {1, 2, 3, 4};
+        permutations ob = new permutations();
+        ob.repeat(ara);
     }
 }
 

@@ -1,7 +1,7 @@
 // List of problem solved. 
 // Started on 22/10/2022;
-i. Array : 16. ii. String : 7.
-Total Problem Solved : 23
+i. Array : 16. ii. String : 8.
+Total Problem Solved : 24
 
 *** Arrays : 
 
@@ -82,9 +82,11 @@ Total Problem Solved : 23
 20. 04/12/22
 	i. Reverse Vowel in a String -- https://leetcode.com/problems/reverse-vowels-of-a-string/                              -- Difficulty : Easy
 	ii. Longest Substring Without Repeating Characters -- /longest-substring-without-repeating-characters/description/     -- Difficulty : Medium
-	**** // This is second time solved a "Medium" Difficulty Problem without any sort of help.. :)
+	// This is second time solved a "Medium" Difficulty Problem without any sort of help.. :)
 
-
+21. 05/12/22
+	i. *Group Anargrams -- https://leetcode.com/problems/group-anagrams                                                     -- Difficulty : Medium
+		
 
 
 

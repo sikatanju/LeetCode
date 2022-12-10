@@ -1,7 +1,7 @@
 // List of problem solved. 
 // Started on 22/10/2022;
-i. Array : 16. ii. String : 8.
-Total Problem Solved : 24
+i. Array : 16. ii. String : 8 --- iii. Stack : 3
+Total Problem Solved : 27
 
 *** Arrays : 
 
@@ -82,11 +82,24 @@ Total Problem Solved : 24
 20. 04/12/22
 	i. Reverse Vowel in a String -- https://leetcode.com/problems/reverse-vowels-of-a-string/                              -- Difficulty : Easy
 	ii. Longest Substring Without Repeating Characters -- /longest-substring-without-repeating-characters/description/     -- Difficulty : Medium
-	// This is second time solved a "Medium" Difficulty Problem without any sort of help.. :)
+	// ^-^ This is my second time solving a "Medium" Difficulty Problem without any sort of help.. :)
 
 21. 05/12/22
 	i. *Group Anargrams -- https://leetcode.com/problems/group-anagrams                                                     -- Difficulty : Medium
 		
+************* Stack *****************************
+22. 06/12/22
+	i. Implementing Queue using Stack -- https://leetcode.com/problems/implement-queue-using-stacks                         -- Difficulty : Easy
+	ii. Min Stack                     --    https://leetcode.com/problems/min-stack/                                        -- Difficulty : Medium
+	// ^-^ This is the third medium difficulty problem, I've solved without any help. :)
 
+23. 07/12/22
+	i. Reorder List                   -- https://leetcode.com/problems/reorder-list/                                        -- Difficulty : Medium
+	// ^-^ This is the fourth medium difficulty problem, I've solved without any help. :)
 
-
+24. 09/12/22
+	i. Evaluate Reverse Polish Notation -- https://leetcode.com/problems/evaluate-reverse-polish-notation/                  -- Difficulty : Medium
+	// ^-^ This is the fifth medium difficulty problem, I've solved without any help. :)
+25. 10/12/22
+	i. *Basic Calculator II -- https://leetcode.com/problems/basic-calculator-ii/description/                               -- Difficulty : Medium
+	// I though multiplication has to be at first, later found out multiplication and division are same presedence (At least, in this problem).

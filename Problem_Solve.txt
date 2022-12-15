@@ -1,6 +1,7 @@
 // List of problem solved. 
 // Started on 22/10/2022;
-i. Array : 16. ii. String : 8 --- iii. Stack : 3
+
+i. Array : 16. *** ii. String : 8 *** iii. Stack : 3 *** iv. LinkedList : 6
 Total Problem Solved : 27
 
 *** Arrays : 
@@ -100,6 +101,25 @@ Total Problem Solved : 27
 24. 09/12/22
 	i. Evaluate Reverse Polish Notation -- https://leetcode.com/problems/evaluate-reverse-polish-notation/                  -- Difficulty : Medium
 	// ^-^ This is the fifth medium difficulty problem, I've solved without any help. :)
+	
 25. 10/12/22
 	i. *Basic Calculator II -- https://leetcode.com/problems/basic-calculator-ii/description/                               -- Difficulty : Medium
-	// I though multiplication has to be at first, later found out multiplication and division are same presedence (At least, in this problem).
+	// I thought multiplication has to be at first, found out multiplication and division have same presedence (atleast, in this problem).
+
+*********************** Linked List **********************************
+
+26. 12/12/22
+	i. Remove Nth Node From End of List - https://leetcode.com/problems/remove-nth-node-from-end-of-list/                  -- Difficulty : Medium
+
+27. 13/12/22
+	i. Add Two Numbers -- https://leetcode.com/problems/add-two-numbers/description/                                       -- Difficulty : Medium
+	// Solved it by myself, but runtime was slower.
+
+28. 14/12/22
+	i. *Swap Node in pairs -- https://leetcode.com/problems/swap-nodes-in-pairs/                                           -- Difficulty : Medium
+	ii. Merge Two Sorted Lists -- https://leetcode.com/problems/merge-two-sorted-lists/                                    -- Difficulty : Easy
+
+29. 15/12/22
+    i. Copy List with Random Pointer -- https://leetcode.com/problems/copy-list-with-random-pointer/                       -- Difficulty : Medium
+       // Solved it without any help :) ... It was a good one.
+	ii. Delete the Middle Node of a Linked List -- /problems/delete-the-middle-node-of-a-linked-list/                      -- Difficulty : Medium

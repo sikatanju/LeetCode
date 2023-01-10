@@ -1,8 +1,8 @@
 // List of problem solved. 
 // Started on 22/10/2022;
 
-i. Array : 16. *** ii. String : 8 *** iii. Stack : 3 *** iv. LinkedList : 6
-Total Problem Solved : 27
+i. Array : 17. *** ii. String : 9 *** iii. Stack : 3 *** iv. LinkedList : 6
+Total Problem Solved : 29
 
 *** Arrays : 
 
@@ -123,3 +123,44 @@ Total Problem Solved : 27
     i. Copy List with Random Pointer -- https://leetcode.com/problems/copy-list-with-random-pointer/                       -- Difficulty : Medium
        // Solved it without any help :) ... It was a good one.
 	ii. Delete the Middle Node of a Linked List -- /problems/delete-the-middle-node-of-a-linked-list/                      -- Difficulty : Medium
+
+**************************** Any  **************************************
+
+30. 17/12/22
+	i. Find the Index of the First Occurrence in a String -- /find-the-index-of-the-first-occurrence-in-a-string/          -- Difficulty : Medium
+31. 19/12/22
+	ii. Sort Colors -- https://leetcode.com/problems/sort-colors/                                                          -- Difficulty : Medium
+		// Implemented using QuickSort. with 0ms runtime.
+		
+32. 31/12/22
+	i. Remove Duplicates from Sorted List -- remove-duplicates-from-sorted-list/description/  -- Time : 10 min             -- Difficulty : Easy
+
+
+******************************** 2023 **************************************
+
+33. 02/01/23
+	i. Linked List Cycle -- /problems/linked-list-cycle/ -- Time : 8 min. -- But the runtime was slower                    -- Difficulty : Easy
+	ii. Single Number -- /problems/single-number/        -- Time : 9 min.                                                  -- Difficulty : Easy
+	iii. Majority Element -- /problems/majority-element/ -- Time : Less than 20 min.                                       -- Difficulty : Easy
+
+34. 03/01/23
+	i. Happy Number -- /problems/happy-number/           -- Time : Less than 15 min.                                       -- Difficulty : Easy
+	ii. Add Digits --  /problems/add-digits/             -- Time : Less than  5 min.                                       -- Difficulty : Easy
+
+35. 04/01/23
+	i. *Implementing Stack using queue -- /implement-stack-using-queues/                                                   -- Difficulty : Easy
+
+36. 05/01/23
+	i. *Palindrome LinkedList -- /palindrome-linked-list/                                                                  -- Difficulty : Easy
+
+37. 07/01/23
+	i. *Longest Palindromic Substring -- /longest-palindromic-substring/                                                   -- Difficulty : Medium
+
+38. 09/01/23
+	i. Rotate List                    -- /rotate-list/                                                                     -- Difficulty : Medium
+	// Solved it, but the runtime was slower
+
+39. 10/01/23
+	i. Search In Rotated Array        -- /search-in-rotated-sorted-array/                                                  -- Difficulty : Medium
+	// Solved it, within 35 minutes with 0ms runtime.
+

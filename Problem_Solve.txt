@@ -164,3 +164,6 @@ Total Problem Solved : 29
 	i. Search In Rotated Array        -- /search-in-rotated-sorted-array/                                                  -- Difficulty : Medium
 	// Solved it, within 35 minutes with 0ms runtime.
 
+40. 11/01/23
+	i. *3Sum Closet                    -- /3sum-closest/                                                                   -- Difficulty : Medium
+

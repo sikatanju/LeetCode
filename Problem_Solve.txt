@@ -1,8 +1,7 @@
 // List of problem solved. 
 // Started on 22/10/2022;
 
-i. Array : 17. *** ii. String : 9 *** iii. Stack : 3 *** iv. LinkedList : 6
-Total Problem Solved : 29
+Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 
 *** Arrays : 
 
@@ -167,3 +166,68 @@ Total Problem Solved : 29
 40. 11/01/23
 	i. *3Sum Closet                    -- /3sum-closest/                                                                   -- Difficulty : Medium
 
+
+******************** Binary Search Tree **************************************
+	
+// After some time, starting fresh.
+******************************************************************************
+
+41. 25/02/23
+	i. Binary Tree Inorder Traversal -- /binary-tree-inorder-traversal/                                                    -- Difficulty : Easy
+	ii. Same Tree --                    /same-tree/                                                                        -- Difficulty : Easy
+
+42. 27/02/23
+	i. *Convert Sorted Array To BST -- convert-sorted-array-to-binary-search-tree/                                         -- Difficulty : Easy
+	
+43. 28/02/23
+	i. Convert Sorted List to Binary Search Tree -- convert-sorted-list-to-binary-search-tree/   -- Time : Around 50 min   -- Difficulty : Medium
+	
+44. 02/03/23
+	i. Validate BST --                              /validate-binary-search-tree/                -- Time : Around 1 hour   -- Difficulty : Medium
+	
+45. 03/03/23
+	i. BST LevelOrder Traversal --            /binary-tree-level-order-traversal/                -- Time : Around 40 min   -- Difficulty : Medium
+	// Runtime was slower (4ms), so I did it again (by seeing *solution) next day (0ms).
+
+46. 04/03/23
+	i. BST LevelOrder Traversal II --        /binary-tree-level-order-traversal-ii/              -- Time : Around 10 min   -- Difficulty : Medium
+
+47. 06/03/23
+	i. BST Zigzag LevelOrder Traversal --   /binary-tree-zigzag-level-order-traversal/           -- Time : Around 30 min   -- Difficulty : Medium
+	
+48. 08/03/23
+	i. Maximum Depth of Binary Tree  --     /maximum-depth-of-binary-tree/                      -- Time : Around 5 min     -- Difficulty : Easy
+	i. Minimum Depth of Binary Tree  --     /minimum-depth-of-binary-tree/                      -- Time : Around 30 min    -- Difficulty : Easy
+	   // * The Runtime was slower, could be improved.
+	   
+49. 14/03/23
+	i. *Sort List --                         /sort-list/                                        -- Time : N\A              -- Difficulty : Medium
+	  // Runtime could be improved.
+
+50. 16/03/23
+    i. *Search a 2D Matrix II            -- /search-a-2d-matrix-ii/                             -- Time : N\A              -- Difficulty : Medium
+
+51. 18/03/23
+    i. Search a 2D Matrix                -- /search-a-2d-matrix/                                -- Time : < 1 hour         -- Difficulty : Medium
+
+52. 19/03/23
+    i. Best Time to Buy & Sell Stock II     -- /best-time-to-buy-and-sell-stock-ii/             -- Time : Around 45 min    -- Difficulty : Medium
+
+53. 20/03/23
+    i. Spiral Matrix   -- 1 Sub             -- /spiral-matrix/                                  -- Time : < 36 min         -- Difficulty : Medium
+
+54. 22/03/23
+    i. *Construct Binary Tree from inorder & preorder -- /construct-binary-tree-from-preorder-and-inorder-traversal/       -- Difficulty : Medium
+       // Runtime can be slightly improved & also iterative approach (faster)
+
+55. 26/03/23
+    i. *Multiply Strings                    -- /multiply-strings/                               -- Time : N/A              -- Difficulty : Medium
+    // Runtime is better than 90%, but still it can be slightly improved.
+
+56. 27/03/23
+    i. Intersection of Two Linked Lists   -- /intersection-of-two-linked-lists/                 -- Time : Around 30 min    -- Difficulty : Easy
+    // * Runtime can be slightly improved.
+	
+57. 31/03/23
+	i. *Maximum Product Subarray           -- /maximum-product-subarray/                        -- Time : N/A    -- Difficulty : Medium
+	// Tried 3 submission in 45 min. Couldn't solve

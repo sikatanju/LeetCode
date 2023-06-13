@@ -12,7 +12,6 @@ public class MaximumProductSubarray {
             currentMax = Math.max(nums[i], currentMax * nums[i]);
             currentMin = Math.min(nums[i], currentMin * nums[i]);
             maxSoFar = Math.max(maxSoFar, currentMax);
-
         }
         return maxSoFar;
     }

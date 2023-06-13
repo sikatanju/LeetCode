@@ -1,4 +1,4 @@
-// // This problem is from leetCode. Tags : Array. Difficulty : Easy
+/*// // This problem is from leetCode. Tags : Array. Difficulty : Easy
 // https://leetcode.com/problems/remove-element/
 import java.util.Arrays;
 
@@ -19,3 +19,4 @@ public class removeElement {
         System.out.println(removeElementt(ara, 6));
     }
 }
+*/

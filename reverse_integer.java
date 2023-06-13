@@ -1,4 +1,4 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 public class reverse_integer {
     static Scanner any = new Scanner(System.in);
@@ -27,3 +27,4 @@ public class reverse_integer {
         System.out.println (obj.reverse(any.nextInt()));
     }
 }
+*/

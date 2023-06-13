@@ -1,6 +1,6 @@
-import java.util.Stack;
+/*import java.util.Stack;
 public class validPalindrome {
-    /*public boolean isPalindrome(String s)   {
+    public boolean isPalindrome(String s)   {
         Stack<Character> stack = new Stack<>();
         s = s.toLowerCase();
         for (char ch: s.toCharArray())  {
@@ -17,5 +17,6 @@ public class validPalindrome {
             return true;
         else
             return false;
-    }*/
+    }
 }
+*/

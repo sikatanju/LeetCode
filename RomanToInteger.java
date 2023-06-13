@@ -1,10 +1,10 @@
-import java.util.Scanner;
+/*import java.util.Scanner;
 
 
 public class RomanToInteger {
     static Scanner any = new Scanner(System.in);
 
-    public int romanToInt(String str)    {
+    /*public int romanToInt(String str)    {
         int num = 0, limit = str.length();
         for (int i=0; i<str.length(); i++)  {
             if (str.charAt(i) == 'I' && i != limit-1 && str.charAt(i+1) == 'V') {
@@ -56,4 +56,4 @@ public class RomanToInteger {
         RomanToInteger obj = new RomanToInteger();
         System.out.println (obj.romanToInt(str));
     }
-}
+}*/

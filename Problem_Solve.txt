@@ -231,3 +231,38 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 57. 31/03/23
 	i. *Maximum Product Subarray           -- /maximum-product-subarray/                        -- Time : N/A    -- Difficulty : Medium
 	// Tried 3 submission in 45 min. Couldn't solve
+
+------------------------------ After Two month Break ----------------------------------
+
+58. 01/06/23
+    i. *Insert Delete GetRandom            -- //insert-delete-getrandom-o1/                       -- Time : N/A    -- Difficulty : Medium
+    // Submitted 3 times, just couldn't get it right.
+
+59. 02/06/23
+    i. Rotate Array                        -- ///rotate-array/                                    -- Time : 30 min -- Difficulty : Medium
+    // *Runtime can be improved (Try with LinkedList)
+
+60. 03/06/23
+    i. Remove Duplicates from Sorter Array II - /rotate-array/                                    -- Time : 20 min -- Difficulty : Medium
+    // Submission accepted first time with 0ms runtime. :)
+
+61. 04/06/23
+    i.  Two Sum II:The Array is Sorted     --/two-sum-ii-input-array-is-sorted/                   -- Time : 15 min -- Difficulty : Medium
+    ii. Contains Duplicate II              -- /contains-duplicate-ii/                             -- Time : 10 min -- Difficulty : Easy
+
+62. 06/06/23
+    i. Is Subsequence                      -- /is-subsequence/                                    -- Time : 10 min -- Difficulty : Easy
+    // Runtime can be improved (Done it in 1ms, could be done in 0ms).
+
+63. 10/06/23
+    i. *Merge Intervals                    -- /merge-intervals/                                   -- Time : N/A    -- Difficulty : Medium
+    // Runtime should be improved, very bad right now. Couldn't solve, had to see solution.
+
+64. 11/06/23
+    i.  Reverse Linked List                 -- /reverse-linked-list/                               -- Time : N/A    -- Difficulty : Easy
+    ii. Reverse Linked List II              -- /reverse-linked-list-ii/                            -- Time : N/A    -- Difficulty : Medium
+    // Accepted on first try. With 0ms runtime. Though it took some time.
+
+65. 12/06/23
+    i. Reverse Words in a String            -- /reverse-words-in-a-string/                         -- Time : N/A    -- Difficulty : Medium
+    // Runtime is 10ms, I must improve runtime. I've done this problem in Mosh Hamedani Course.

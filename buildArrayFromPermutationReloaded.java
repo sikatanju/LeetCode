@@ -1,7 +1,7 @@
 // Problem : 1920 : Build Array from permutation ...
 // This impletentation is from "EOAndersson". https://leetcode.com/EOAndersson/
 // This bitwise implementation only use O(1) space and will run at O(n) time.
-
+/*
 import java.util.Arrays;
 
 public class buildArrayFromPermutationReloaded {
@@ -22,3 +22,4 @@ public class buildArrayFromPermutationReloaded {
         buildArray(nums);
     }
 }
+*/

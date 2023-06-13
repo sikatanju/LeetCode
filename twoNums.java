@@ -2,7 +2,7 @@
 // https://leetcode.com/problems/two-sum/
 
 
-import java.util.Arrays;
+/*import java.util.Arrays;
 public class twoNums {
     public int[] twoSum (int[] nums, int target)    {
         int[] ara = {0, 0};
@@ -16,10 +16,5 @@ public class twoNums {
         }
         return ara;
     }
-    public static void main(String[] args)  {
-        twoNums nums = new twoNums();
-        
-        int[] ara = {3,2,4};
-        System.out.println (Arrays.toString(nums.twoSum(ara, 6)));
-    }
 }
+*/

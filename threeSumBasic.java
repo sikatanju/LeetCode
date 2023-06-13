@@ -1,9 +1,9 @@
-import java.util.List;
+/*import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
-
+/* */
 public class threeSumBasic {
-    public List<List<Integer>> threeSum(int[] nums)     {
+    /*public List<List<Integer>> threeSum(int[] nums)     {
         List<List<Integer>> returnList = new ArrayList<>();
         Arrays.sort(nums);
         for (int i=0; i<nums.length; i++)   {
@@ -40,5 +40,5 @@ public class threeSumBasic {
 
         threeSumBasic ob = new threeSumBasic();
         ob.threeSum(nums);
-    }
+    }*/
 }

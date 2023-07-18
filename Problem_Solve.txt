@@ -266,3 +266,45 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 65. 12/06/23
     i. Reverse Words in a String            -- /reverse-words-in-a-string/                         -- Time : N/A    -- Difficulty : Medium
     // Runtime is 10ms, I must improve runtime. I've done this problem in Mosh Hamedani Course.
+
+66. 13/06/23
+    i. Remove Duplicates from Sorted List II     --/remove-duplicates-from-sorted-list-ii          -- Time : 1 hr   -- Difficulty : Medium
+    // Accepted on second try. with 0ms runtime.
+
+67. 16/06/23
+    i. *Jump Game                            -- /jump-game/                                         -- Time : N/A    -- Difficulty : Medium
+    // Needed help, couldn't solve it.
+
+68. 17/06/23
+    i. *Jump Game II                         -- /jump-game-ii/                                      -- Time : N/A    -- Difficulty : Medium
+
+69. 20/06/23
+    i. Flatten Binary Tree to Linked List    -- /flatten-binary-tree-to-linked-list/              -- Time : Below 40 min    -- Difficulty : Medium
+    // *Done it in 1ms runtime, could be done in 0ms(I think in-place solution takes 0ms).
+
+70. 11/07/23
+    i. Set Matrix Zeroes                  -- /set-matrix-zeroes/                              -- Time : Less than 50 min    -- Difficulty : Medium
+    // * Runtime : 1ms, it can be slightly improved to 0ms.
+
+71. 13/07/23
+    i. Gas Station                       -- /gas-station/                                     -- Time : Less than 50 min    -- Difficulty : Medium
+    // *** Runtime is so out of the chart, just barely made it in time. It's not acceptable.
+
+72. 15/07/23
+    i. *Invert Binary Tree               -- /invert-binary-tree/                              -- Time : Less than 50 min    -- Difficulty : Easy
+    // Although was an easy problem, still needed some help
+
+73. 16/07/23
+    i. Partition List                   -- /invert-binary-tree/                               -- Time : Less than 40 min    -- Difficulty : Medium
+    // Done it with 0ms runtime, on second submission. :)
+	
+74. 17/07/23
+	i. Path Sum                         --  /path-sum/                                        -- Time : Less than 20 min    -- Difficulty : Easy
+	// Accepted on first submission. :) -- 0ms runtime.
+
+75. 18/07/23
+    i. *House Robber                    -- /house-robber                                      -- Time : N/A                 -- Difficulty : Medium
+    // Needed help :( Little tricky problem.
+
+
+

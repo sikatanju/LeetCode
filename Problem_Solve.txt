@@ -226,7 +226,7 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 
 56. 27/03/23
     i. Intersection of Two Linked Lists   -- /intersection-of-two-linked-lists/                 -- Time : Around 30 min    -- Difficulty : Easy
-    // * Runtime can be slightly improved.
+    //  Runtime can be slightly improved.
 	
 57. 31/03/23
 	i. *Maximum Product Subarray           -- /maximum-product-subarray/                        -- Time : N/A    -- Difficulty : Medium
@@ -306,5 +306,193 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     i. *House Robber                    -- /house-robber                                      -- Time : N/A                 -- Difficulty : Medium
     // Needed help :( Little tricky problem.
 
+76. 20/07/23
+    i. Odd Even Linked List             --/odd-even-linked-list/                              -- Time : < 20 minutes        -- Difficulty : Medium
+    // Accepted on second submission. Could have gotten it on first try, but a silly mistake cost me one submission.
+
+77. 23/07/23
+    i. *LRU Cache --                    -- /lru-cache/                                        -- Time : N/A                 -- Difficulty : Medium
+    // Needed help, great problem, a lot to think about, also was a "Hard" problem before it was relabeled to "Medium"
+
+78. 29/07/23
+    i. Integer to Roman                 -- /integer-to-roman/                                 -- Time : < 15 minutes        -- Difficulty : Medium
+    // Accepted on first try :) with 5ms runtime (better than 83% of submissions).
+
+79. 30/07/23
+    i. The kth Factor of n             -- /the-kth-factor-of-n/                               -- Time : < 10 minutes        -- Difficulty : Medium
+
+80. 01/08/23
+    i. Game of Life                    -- /game-of-life/                                      -- Time : <= 45 minutes       -- Difficulty : Medium
+    // Accepted on first submission with 0ms runtime. Memory usage was also better than 99.80% of user with Java
+
+81. 07/08/23
+    i. Sum Root to Leaf Numbers        -- /sum-root-to-leaf-numbers/                          -- Time : < 20 minutes        -- Difficulty : Medium
+    // Accepted on first submission with 0ms runtime. Memory usage also better than 86.74%
+
+82. 08/08/23
+    i. Populating Next Right Pointers in Each Node II
+                                      -- /populating-next-right-pointers-in-each-node-ii/     -- Time : < 30 minutes        -- Difficulty : Medium
+    // Accepted on first submission with 1ms runtime, runtime could be slightly improved. Memory usage was okay.
+
+83. 10/08/23
+    i. *Minimum Path Sum               -- /minimum-path-sum/                                  -- Time : N/A                 -- Difficulty : Medium
+    // Needed Help. Runtime can be improved. (Done in 2ms, could be done in 0ms).
+
+84. 14/08/23
+    i. Spiral Matrix II                -- /spiral-matrix-ii/                                  -- Time : < 30 min            -- Difficulty : Medium
+    // Runtime is 0ms, and memory usage is also fine.
+
+85. 15/08/23
+    i. *Path Sum II                    -- /path-sum-ii/                                       -- Time : N/A                 -- Difficulty : Medium
+    // Needed help, so close though. Anyway, runtime could be slightly improved from 1ms to 0ms.
+
+******************** 100 problems done. :) *******************************
+
+86. 17/08/23
+    i. Find Minimum in Rotated Sorted Array   --  /find-minimum-in-rotated-sorted-array/      -- Time : < 40 min            -- Difficulty : Medium
+    // Did it in 0ms, memory usage was also good.
+
+87. 19/08/23
+    i. *Find All Anagrams in a String          -- /find-all-anagrams-in-a-string/             -- Time : N/A                 -- Difficulty : Medium
+    // Need revise later. Tried for almost 45 minutes, couldn't solve it.
+	
+88. 20/08/23
+	i. Check if a String Is an Acronym of Words -- /check-if-a-string-is-an-acronym-of-words/     -- Time : < 10 min        -- Difficulty : Easy
+	ii. Determine the Minimum Sum of a k-avoiding Array  
+	                                        /determine-the-minimum-sum-of-a-k-avoiding-array/     -- Time : < 20 min        -- Difficulty : Medium
+											
+	// Solved both of these problems for Weekly contest.
 
 
+89. 21/08/23
+    i. Path Sum III                          -- /path-sum-iii/                                    -- Time : < 45 min        -- Difficulty : Medium
+    // Runtime is way slower, must improve runtime.
+
+90. 23/08/23
+    i. *Top K Frequent Elements               -- /top-k-frequent-elements/                        -- Time : N/A             -- Difficulty : Medium
+    // Needed Help, Runtime is better than 91%, but a lot could be improved.
+    ii. Contains Duplicate                    -- /contains-duplicate/                             -- Time : <2 min          -- Difficulty : Easy
+    // Runtime can be improved. Better than 66% though.
+    iii. Binary Search                        -- /binary-search/                                  -- Time : <2 min          -- Difficulty : Easy
+
+91. 25/08/23
+    i. Kth Smallest Element in a BST          -- /kth-smallest-element-in-a-bst/                  -- Time : < 30 min        -- Difficulty : Medium
+    // Runtime : 0ms, Memory : Better than 86%
+
+// ********************************************  After Some time off, Starting Again !!! ***************************************
+
+92. 16/09/23
+    i. Kth Largest Element in an Array       -- /kth-largest-element-in-an-array/                 -- Time : < 15 min        -- Difficulty : Medium
+    // *** Solved this problem, while learning Heap. Runtime : 65ms beats only 12%, it must be improved.
+
+93. 17/09/23
+    i. Implement Trie (Prefix Tree)          -- /implement-trie-prefix-tree/                      -- Time : < 15 min        -- Difficulty : Medium
+    // *** Runtime should be improved.
+
+94. 19/09/23
+    i. Daily Temperatures                    -- /daily-temperatures/                              -- Time : < 30 min        -- Difficulty : Medium
+    // Accepted on 2nd submission without any help, but the runtime is horrible. Runtime must be improved.
+
+95. 23/09/23
+    i. *Products of Array Except Self         -- /product-of-array-except-self/                   -- Time : N/A             -- Difficulty : Medium
+    // *** Needed Help, And runtime could be slightly improved from 2ms to 1ms.
+
+96. 24/09/23
+    i. Count Good Nodes in Binary Tree        -- /count-good-nodes-in-binary-tree/                -- Time : < 30 min        -- Difficulty : Medium
+    // Runtime was better than 100%.
+
+97. 25/09/23
+    i. Binary Tree Right Side View           -- /binary-tree-right-side-view/                    -- Time : < 20 min         -- Difficulty : Medium
+    // Runtime could be slightly improved, mine was 1ms, best was 0ms.
+
+98. 27/09/23
+    i. Longest Repeating Character Replacement  -- /longest-repeating-character-replacement/     -- Time : < 50 min         -- Difficulty : Medium
+    // Runtime is awful, must improve runtime. :)
+
+99. 01/10/23
+    i. *Find The Duplicate Number               -- /find-the-duplicate-number/                   -- Time : N/A              -- Difficulty : Medium
+    // Runtime is better, the best runtime uses extra 0(n) space, but the question was asked to solve in O(1) (constant) space.
+
+100. 02/10/23
+    i. *Car Fleet                              -- /car-fleet/                                    -- Time : N/A              -- Difficulty : Medium
+    // Needed help, very interesting solution, there is no way that would be possible to figure out by me.
+
+101. 05/10/23
+    i. *Find K Pairs with Smallest Sums        -- /find-k-pairs-with-smallest-sums/             -- Time : N/A              -- Difficulty : Medium
+    // Needed help, runtime could be improved, anyhow, runtime is great. better than 91% & actually uses priorityQueue.
+
+102. 06/10/23
+    i.  Summary Ranges                         -- /summary-ranges/                              -- Time : < 20 min         -- Difficulty : Easy
+    ii. Isomorphic Strings                     -- /isomorphic-strings/                          -- Time : < 15 min         -- Difficulty : Easy
+
+103. 09/10/23
+    i. *Design Add and Search Words Data Structure -- /design-add-and-search-words-data-structure/   -- Time : N/A         -- Difficulty : Medium
+    // Needed help. Runtime could be better. Though it doesn't matter that much. If runtime were to improve, memory usage would be more.
+
+104. 10/10/23
+    i. Last Stone Weight                      -- /last-stone-weight/                            -- Time : < 10 min         -- Difficulty : Easy
+    ii. *Kth Largest Element in a Stream      -- /kth-largest-element-in-a-stream/              -- Time : N/A              -- Difficulty : Easy
+    // Needed a little help.
+
+105. 12/10/23
+    i. Task Scheduler                         -- /task-scheduler/                               -- Time : <= 1 hour        -- Difficulty : Medium
+    // ***Runtime should be improved. Took some time, but it's worth it. Happy to solve it without any help.
+
+106. 14/10/23
+    i. *Koko Eating Bananas                   -- /koko-eating-bananas/                          -- Time : N/A              -- Difficulty : Medium
+    // Needed help, very intuitive problem, runtime could be improved.
+
+107. 16/10/23
+    i. *Longest Consecutive Sequence         -- /longest-consecutive-sequence/                  -- Time : N/A              -- Difficulty : Medium
+    // Needed help, runtime could be improved. But don't want to. It's already better than 64%.
+
+108. 18/10/23
+    i. *Lowest Common Ancestor               -- /lowest-common-ancestor-of-a-binary-tree/       -- Time : N/A              -- Difficulty : Medium
+    // Needed help, no way I could have figured that out that much efficiently. Need Recap later.
+
+109. 24/10/23
+    i. Clone Graph                           -- /clone-graph/                                   -- Time : < 50 min         -- Difficulty : Medium
+    // Best runtime is 24ms, mine is 32ms (beats 6%). Runtime could be improved.
+
+110. 25/10/23
+    i. Course Schedule                       -- /course-schedule/                               -- Time : < 45 min         -- Difficulty : Medium
+    // Runtime is not good, it must be improved.
+
+111. 27/10/23
+    i. *Surrounded Regions                   -- /surrounded-regions/                            -- Time : N/A              -- Difficulty : Medium
+    // Needed help, didn't know how to traverse dfs or bfs through a matrix, understood the solution well though.
+
+112. 28/10/23
+    i. Number of Islands                     -- /number-of-islands/                             -- Time : < 30 min         -- Difficulty : Medium
+    // Pretty easy if you know how to traverse dfs on a matrix.
+
+113. 01/11/23
+    i. Max Area of Island                    -- /max-area-of-island/                            -- Time : < 20 min         -- Difficulty : Medium
+
+114. 03/11/23
+    i. Maximum Subarray                      -- /maximum-subarray/                              -- Time : < 20 min         -- Difficulty : Medium
+    // Learned Kadane's Algorithm, then it was a cake walk :)
+
+115. 04/11/23
+    i. *Maximum Sum Circular Subarray        -- /maximum-sum-circular-subarray/                 -- Time : N/A              -- Difficulty : Medium
+    // Needed help. Runtime is good. No change needed.
+
+116. 05/11/23
+    i. Subsets                               -- /subsets/                                       -- Time : < 20 min         -- Difficulty : Medium
+    // Learned basic backtracking for Subsets, then implemented.
+
+117. 06/11/23
+    i. *Simplify Path                        -- /simplify-path/                                 -- Time : N/A              -- Difficulty : Medium
+    // Needed help, was so close to solving the problem though. Runtime could be improved (6ms -> 1ms).
+
+118. 07/11/23
+    i. Find Peak Element                     -- /find-peak-element/                             -- Time : < 30 min         -- Difficulty : Medium
+    // Did it on my own. Had a bit of luck on my side.
+
+119. 08/11/23
+    i. *Combination Sum                      -- /combination-sum/                               -- Time : N/A              -- Difficulty : Medium
+    // Needed Help, Backtracking. Runtime could be improved (2ms -> 0ms)
+
+120. 09/11/23
+    i. Combinations                          -- /combinations/                                  -- Time : < 20 min         -- Difficulty : Medium
+    // Runtime could be improved (17ms -> 0ms)

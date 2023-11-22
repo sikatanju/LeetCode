@@ -496,3 +496,48 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 120. 09/11/23
     i. Combinations                          -- /combinations/                                  -- Time : < 20 min         -- Difficulty : Medium
     // Runtime could be improved (17ms -> 0ms)
+
+121. 10/11/23
+    i. *Subsets II                           -- /subsets-ii/                                    -- Time : N/A              -- Difficulty : Medium
+    // Needed help, the problem was little tricky. Runtime do not need to improve (1ms -> 0ms)
+
+122. 11/11/23
+    i. *Word Search                          -- /word-search/                                   -- Time : N/A              -- Difficulty : Medium
+    // Needed help. Runtime is better than 60%, still it could improved from 145ms -> 6ms or so.
+
+123. 12/11/23
+    i. Combination Sum II                    -- /combination-sum-ii/                            -- Time : < 20 min         -- Difficulty : Medium
+    // Finally did it on my own. :) Runtime is better than 50%, it could be improved (4ms -> 0ms).
+
+124. 13/11/23
+    i. Permutations                          -- /permutations/                                  -- Time : N/A              -- Difficulty : Medium
+    // Learnt this problem from NeetCode, then tried to implement it. Runtime is 1ms (beats 94%), could be done in 0ms.
+
+125. 15/11/23
+    i. *Generate Parentheses                 -- /generate-parentheses/                          -- Time : N/A              -- Difficulty : Medium
+    // Needed Help, runtime is almost best 1ms.
+
+126. 17/11/23
+    i. Permutation in String                -- /permutation-in-string/                          -- Time : < 1 hour         -- Difficulty : Medium
+    // Solved on my own, but *** runtime is horrible. Runtime must be improved.
+
+127. 18/11/23
+    i. Letter Combinations Of A Phone Number
+                                            -- /letter-combinations-of-a-phone-number/          -- Time : < 1 hour         -- Difficulty : Medium
+    // Did it without any help :). Runtime is also very good (1ms beats 80%, could be done in 0ms). Memory usage is also good.
+
+128. 19/11/23
+    i. *Insert Interval                     -- /insert-interval/                                -- Time : N/A              -- Difficulty : Medium
+    // Needed help :(
+
+129. 20/11/23
+    i. Minimum Size Subarray Sum            -- /minimum-size-subarray-sum/                      -- Time : < 25 min         -- Difficulty : Medium
+    // Solved it on my own :), runtime could be improved. (7ms to 1ms). Just use two pointer instead of ArrayDeque.
+
+130. 21/11/23
+    i. *Non-overlapping Intervals           -- /non-overlapping-intervals/                      -- Time : < N/A            -- Difficulty : Medium
+    // Needed help, the runtime is much slower, 111ms. Must improve runtime.
+
+131. 22/11/23
+    i. Zigzag Conversion                    -- /zigzag-conversion/                              -- Time : < 30 min         -- Difficulty : Medium
+    // Accepted on first try. Runtime could be improved (7ms -> 1ms).

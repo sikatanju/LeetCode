@@ -6,8 +6,8 @@ import java.util.List;
 
 public class codeRunner {
     public static void main(String[] args) {
-        int[] ara = {1,2,2};
-        System.out.println(new SubsetsII().subsetsWithDup(ara));
+        String str = "hell,owo.rld";
+        System.out.println(new ZigzagConversion().convert(str, 4));
     }
 }
 

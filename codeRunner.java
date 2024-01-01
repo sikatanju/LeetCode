@@ -1,13 +1,16 @@
 // This class is just to run new problem code... :)
 
+import com.sun.source.tree.Tree;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 public class codeRunner {
     public static void main(String[] args) {
-        String str = "hell,owo.rld";
-        System.out.println(new ZigzagConversion().convert(str, 4));
+        int[] profit = {4, 4, 7, 1};
+        int[] weight = {4, 2, 5, 1};
+        System.out.println(new Knapsack_0_1().findMaximumProfit(profit, weight, 7));
     }
 }
 

@@ -541,3 +541,102 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 131. 22/11/23
     i. Zigzag Conversion                    -- /zigzag-conversion/                              -- Time : < 30 min         -- Difficulty : Medium
     // Accepted on first try. Runtime could be improved (7ms -> 1ms).
+
+132. 24/11/23
+    i. Valid Sudoku                         -- /valid-sudoku/                                   -- Time : < 35 min         -- Difficulty : Medium
+    // Accepted on first try, runtime could be slightly improved (3ms -> 1ms). I think it's fine as it is.
+
+132. 25/11/23
+    i. *K Closest Points to Origin          -- /k-closest-points-to-origin/                     -- Time : N/A              -- Difficulty : Medium
+    // Needed help, almost solved it, but wrong answered due to duplication. Need to study comparator in details. And runtime should be improved (29ms -> 3-4ms)
+
+133. 26/11/23
+    i. *Trapping Rain Water                 -- /trapping-rain-water/                            -- Time : N/A              -- Difficulty : Hard
+    // Needed help from Neetcode. Runtime is best. :) This is my first time solving a hard problem.
+
+134. 08/11/23
+    i. *Longest Increasing Subsequence       -- /longest-increasing-subsequence/                 -- Time : N/A              -- Difficulty : Medium
+    // Dynamic Programming problem, needed help from Neetcode. Understood it really well. Time should be improved.
+
+135. 09/11/23
+    i. *WordBreak                            -- /word-break                                      -- Time : N/A              -- Difficulty : Medium
+    // DP Problem, needed help from Neetcode. Need to revise later. Time could be improved (4ms -> 0ms)
+
+136. 10/11/23
+    i. *Coin Change                          -- /coin-change/                                    -- Time : N/A              -- Difficulty : Medium
+    // DP Problem, needed help from Neetcode. Need to revise later. Time could be improved (17ms -> 5ms). Still better than 73%.
+
+137. 11/11/23
+    i. *AddBinary                            -- /add-binary/                                     -- Time : N/A              -- Difficulty : Easy
+    ii. Number of 1 Bits                     -- /number-of-1-bits/                               -- Time : < 5 min          -- Difficulty : Easy
+
+138. 12/12/23
+    i. H-Index                               -- /h-index/                                        -- Time : <40 min          -- Difficulty : Medium
+    // Much needed one to regain confidence again. Runtime could be improved from (2ms -> 0ms).
+
+139. 14/12/23
+    i. *Pow(x, n)                            -- /powx-n/                                         -- Time : N/A              -- Difficulty : Medium
+    // Needed help for optimal solution, solved it kinda, but was throwing exception for very large calculation.
+
+140. 15/12/23
+    i. *Factorial Trailing Zeroes            -- /factorial-trailing-zeroes/                      -- Time : N/A              -- Difficulty : Medium
+    // Needed, help, very intuitive problem.
+    ii. Ransom Note                          -- /ransom-note/                                    -- Time : < 15 min         -- Difficulty : Easy
+    // Runtime could be improved (7ms -> 0ms).
+
+141. 16/12/23
+    i. Minimum Absolute Difference in BST    -- /minimum-absolute-difference-in-bst/             -- Time : < 30 min         -- Difficulty : Easy
+    // Runtime should be improved (6ms -> 0ms).
+    ii. Word Pattern                         -- /word-pattern/                                   -- Time : < 20 min         -- Difficulty : Easy
+    // Runtime could be improved (1ms -> 0ms).
+
+142. 17/12/23
+    i. Course Schedule II                    -- /course-schedule-ii/                             -- Time : < 55 min         -- Difficulty : Medium
+    // Runtime should be improved. (12ms -> 1ms)
+
+143. 18/12/23
+    i. Single Number II                      -- /single-number-ii/                               -- Time : < 30 min         -- Difficulty : Medium
+    // Learned from ChatGPT, runtime still could be improved (3ms -> 0ms)
+
+144. 19/12/23
+    i. *Triangle                             -- /triangle/                                       -- Time : N/A              -- Difficulty : Medium
+    // DP problem, needed help, need to improve runtime (3ms->0ms) & need to study DP-2D as well.
+
+145. 21/12/23
+    i. Rotate Image                          -- /rotate-image/                                   -- Time : < 40 min         -- Difficulty : Medium
+
+146. 22/12/23
+    i. *Unique Paths                         -- /unique-paths/                                   -- Time : N/A              -- Difficulty : Medium
+    // Learned from NeetCode.
+
+147. 23/12/23
+    i. Unique Paths II                       -- /unique-paths-ii/                                -- Time : < 30 min         -- Difficulty : Medium
+    // Best runtime I could come with was 1ms, then learned 0ms.
+
+148. 25/12/23
+    i. Longest Common Subsequence            -- /longest-common-subsequence/                     -- Time : < 30 min         -- Difficulty : Medium
+    // Learned from NeetCode. Runtime is 9ms, still better than 98%.
+
+149. 26/12/23
+    i. *Interleaving String                  -- /interleaving-string/                            -- Time : N/A              -- Difficulty : Medium
+    // Needed help from Neetcode. Runtime could be improved (3ms -> 0ms).
+
+150. 28/12/23
+    i. *Edit Distance                        -- /edit-distance/                                  -- Time : N/A              -- Difficulty : Medium
+    // Another 2-D dp problem, Runtime could be better (7ms -> 2ms). Learned from NeetCode.
+
+151. 29/12/23
+    i. *Count Complete Tree Nodes            -- /count-complete-tree-nodes/                      -- Time : N/A              -- Difficulty : Easy
+    // Needed help, 0ms runtime. Could have solved 0(n) runtime (well, a monkey could have done that).
+
+152. 31/12/23
+    i. *Bitwise AND of Numbers Range         -- /bitwise-and-of-numbers-range/                   -- Time : N/A              -- Difficulty : Medium
+    // Needed help. Runtime could be improved, but it's a bitwise problem, doesn't really matter.
+
+
+
+############################ 2024 ############################
+
+153. 01/01/24
+    i. *Construct Quad Tree                 -- /construct-quad-tree/                             -- Time : N/A              -- Difficulty : Medium
+    // Needed help, very intuitive approach while solving recursively. Runtime could be improved (1ms -> 0ms).

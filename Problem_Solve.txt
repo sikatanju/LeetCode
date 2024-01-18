@@ -640,3 +640,58 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 153. 01/01/24
     i. *Construct Quad Tree                 -- /construct-quad-tree/                             -- Time : N/A              -- Difficulty : Medium
     // Needed help, very intuitive approach while solving recursively. Runtime could be improved (1ms -> 0ms).
+
+154. 02/01/24
+    i. Reverse Integer                      -- /reverse-integer/                                 -- Time : < 40 min         -- Difficulty : Medium
+    // Learned the trick from NeetCode. Then code it myself. Runtime is shown 1ms in my other account, in my main account it shows 3ms. Should learn 0ms solution, much cleaner implementation.
+
+155. 03/01/24
+    i. *House Robber II                     -- /house-robber-ii/                                 -- Time :   N/A            -- Difficulty : Medium
+    // Needed help, cleared House Robber one problem as well.
+
+156. 04/01/24
+    i. *Rotting Oranges                     -- /rotting-oranges/                                 -- Time :   N/A            -- Difficulty : Medium
+    // Needed help, runtime is 1ms (best), solved using DFS, also should learn in BFS.
+
+157. 05/01/24
+    i. *Palindrome Partitioning             -- /palindrome-partitioning/                         -- Time :   N/A            -- Difficulty : Medium
+    // Needed help, runtime is 10ms (best 0ms), I think runtime is better (close to 6ms), but due to same algorithm pattern of previous solutions.
+
+158. 08/01/24
+    i. Binary Search Tree Iterator          -- /binary-search-tree-iterator/                     -- Time : < 20 min         -- Difficulty : Medium
+    // Was easy one, runtime is 17ms (best is 15ms).
+
+159. 10/01/24
+    i. Hand of Straights                    -- /hand-of-straights/                               -- Time : < 35 min         -- Difficulty : Medium
+    // Runtime (38ms) is better than 49%, need to improve. Best is 9ms in Java
+
+160. 11/01/24
+    i. *Construct Binary Tree from Inorder and Postorder Traversal                               -- Time :   N/A            -- Difficulty : Medium
+                                            -- /construct-binary-tree-from-inorder-and-postorder-traversal/
+    // Needed help, the core is much clearer now. Worth it. :), Runtime could be improved (2ms -> 0ms)
+
+161. 12/01/24
+    i. Symmetric Tree                       -- /symmetric-tree/                                  -- Time : < 5 min         -- Difficulty : Easy
+    ii. Average of Levels in Binary Tree    -- /average-of-levels-in-binary-tree/                -- Time : < 15 min        -- Difficulty : Easy
+    // Runtime could be improved (3ms -> 1ms).
+
+162. 13/01/24
+    i. *Basic Calculator                    -- /basic-calculator/                                -- Time :   N/A            -- Difficulty : Hard
+    // Needed help, a classic stack problem, runtime is better than 89% (6ms). Could be improved using recursive solution (6ms -> 2ms).
+
+163. 14/01/24 -- Weekly Contest 380
+    i. Count Elements With Maximum Frequency-- /count-elements-with-maximum-frequency/           -- Time : < 16 min         -- Difficulty : Easy
+    ii. Find Beautiful Indices in the Given Array I
+                                            -- /find-beautiful-indices-in-the-given-array-i/     -- Time : < 50 min         -- Difficulty : Medium
+
+164. 15/01/24
+    i. *Partition Equal Subset Sum          -- /partition-equal-subset-sum/                      -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, needed help from NeetCode. Runtime is horrible, need to optimize it later.
+
+165. 17/01/24
+    i. *Reverse Bits                        -- /reverse-bits/                                    -- Time : N/A              -- Difficulty : Easy
+    // Needed help, need to review later. Weak in Bit manipulation.
+
+166. 18/01/24
+    i. Reverse Nodes in k-Group             -- /reverse-nodes-in-k-group/                        -- Time :  < 36 min        -- Difficulty : Hard
+    // First `Hard` problem I've solved on my own ;), Runtime could be slightly improved (1ms -> 0ms).

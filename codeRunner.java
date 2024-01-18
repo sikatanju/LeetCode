@@ -8,13 +8,32 @@ import java.util.List;
 
 public class codeRunner {
     public static void main(String[] args) {
-        int[] profit = {4, 4, 7, 1};
-        int[] weight = {4, 2, 5, 1};
-        System.out.println(new Knapsack_0_1().findMaximumProfit(profit, weight, 7));
+        ListNode head = new ListNode(1);
+        ListNode two = new ListNode(2);
+        ListNode three = new ListNode(3);
+        ListNode four = new ListNode(4);
+        ListNode five = new ListNode(5);
+        four.next = five;
+        five.next = new ListNode(6);
+        three.next = four;
+        two.next = three;
+        head.next = two;
+        var temp = new ReverseNodesInKGroup().reverseKGroup(head, 3);
+        while (temp != null)    {
+            System.out.print(temp.val + " ");
+            temp = temp.next;
+        }
+
     }
 }
-
+// 2147483647
+// 7463847412
 /*{
+
+"frkxslnnn"
+"rkxsl"
+"n"
+2
                 {'O', 'O', 'O', 'O', 'O', 'O'},
                 {'O', 'X', 'X', 'X', 'X', 'O'},
                 {'O', 'X', 'O', 'O', 'X', 'O'},

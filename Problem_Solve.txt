@@ -695,3 +695,30 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 166. 18/01/24
     i. Reverse Nodes in k-Group             -- /reverse-nodes-in-k-group/                        -- Time :  < 36 min        -- Difficulty : Hard
     // First `Hard` problem I've solved on my own ;), Runtime could be slightly improved (1ms -> 0ms).
+
+167. 19/01/24
+    i. Merge k Sorted Lists                 -- /merge-k-sorted-lists/                            -- Time :  < 8 min         -- Difficulty : Hard
+    // Second `Hard` problem solved on my own :) (Okay I'll stop counting). Runtime is better than 69% at 4ms (best is 2ms).
+
+168. 22/01/24
+    i. *Largest Rectangle in Histogram      -- /largest-rectangle-in-histogram/                  -- Time :  N/A             -- Difficulty : Hard
+    // Needed help, stack(hard) problem. Runtime is better than 49% at 70ms, could be done in 7ms. Need to improve runtime and revision later.
+
+169. 23/01/24
+    i. *Evaluate Division                   -- /evaluate-division/                               -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, need to revise the dfs, very intuitive problem, understood graph a little better.
+
+170. 25/01/24
+    i. *Minimum Number of Arrows to Burst Balloons
+                                            -- /minimum-number-of-arrows-to-burst-balloons/     -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, need to review all the intervals problem later.
+
+171. 26/01/24
+    i. *Binary Tree Maximum Path Sum        -- /binary-tree-maximum-path-sum/                   -- Time :  N/A             -- Difficulty : Hard
+    // Needed help from NeetCode. Completed all the `Binary Tree` problem.
+
+
+171. 28/01/24 -- Weekly Contest 382
+    i. Number of Changing Keys              -- /number-of-changing-keys/                        -- Time : < 5 min          -- Difficulty : Easy
+    ii. Alice and Bob Playing Flower Game   -- /alice-and-bob-playing-flower-game/              -- Time :  N/A             -- Difficulty : Medium
+    // Solved it on my own, but couldn't do it in contest. Anyway, came up with the solution later.

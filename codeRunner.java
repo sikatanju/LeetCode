@@ -8,22 +8,7 @@ import java.util.List;
 
 public class codeRunner {
     public static void main(String[] args) {
-        ListNode head = new ListNode(1);
-        ListNode two = new ListNode(2);
-        ListNode three = new ListNode(3);
-        ListNode four = new ListNode(4);
-        ListNode five = new ListNode(5);
-        four.next = five;
-        five.next = new ListNode(6);
-        three.next = four;
-        two.next = three;
-        head.next = two;
-        var temp = new ReverseNodesInKGroup().reverseKGroup(head, 3);
-        while (temp != null)    {
-            System.out.print(temp.val + " ");
-            temp = temp.next;
-        }
-
+        System.out.println(new AliceAndBobPlayingFlowerGame().flowerGame(3,2));
     }
 }
 // 2147483647

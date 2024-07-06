@@ -3,21 +3,36 @@ import java.util.Stack;
 public class LargestRectangleInHistogram {
     public int largestRectangleArea(int[] heights) {
         int len = heights.length;
-        Stack<Integer> stack = new Stack<>();
-        int maxArea = 0;
-        for (int i=0; i<=len; i++)  {
-            int currentHeight = (i==len ? 0: heights[i]);
-            if (stack.isEmpty() || currentHeight >= heights[stack.peek()])
-                stack.push(i);
-            else {
-                int top = stack.pop();
-                maxArea = Math.max(maxArea, heights[top] * (stack.isEmpty() ? i: i-1-stack.peek()));
-                i--;
-            }
+        int maxArea = Integer.MIN_VALUE;
+
+        int[] ara1 = new int[len];
+        int[] ara2 = new int[len];
+
+        ara1[0] = 0;
+        ara2[len-1] = len-1;
+
+        for (int i=0; i<len; i++)   {
+            int j = i-1;
+            while (j>=0 && heights[i] <= heights[j])
+                j = ara1[j];
+
+            ara1[i] = j;
+        }
+        for (int i=len-1; i>=0; i--)    {
+            int j=i+1;
+            while (j<len && heights[i] <= heights[j])
+                j = ara2[j];
+
+            ara2[i] = j;
+            maxArea = Math.max(maxArea, heights[i] * (ara2[i]-ara1[i]-1));
         }
         return maxArea;
     }
 }
+
+
+
+
 
 
 /* ### 2nd best 7ms runtime :
@@ -25,6 +40,7 @@ public class LargestRectangleInHistogram {
 class Solution {
     public int largestRectangleArea(int[] h) {
         int max=0;
+
         int[] a=new int[h.length];
         int b[]=new int[h.length];
 
@@ -36,7 +52,6 @@ class Solution {
             while(j>=0 && h[i]<=h[j]){
                 j=a[j];
             }
-
             a[i]=j;
         }
 
@@ -46,11 +61,9 @@ class Solution {
                 j=b[j];
             }
             b[i]=j;
-
             max=Math.max(max,h[i]*(b[i]-a[i]-1));
-
         }
-            return max;
+        return max;
     }
 }
 */
@@ -93,3 +106,26 @@ class Solution {
 }
 
 */
+
+
+/* First Accepted Solution :
+public int largestRectangleArea(int[] heights) {
+        int len = heights.length;
+        Stack<Integer> stack = new Stack<>();
+        int maxArea = 0;
+
+        for (int i=0; i<=len; i++)  {
+            int currentHeight = (i==len ? 0: heights[i]);
+
+            if (stack.isEmpty() || currentHeight >= heights[stack.peek()])
+                stack.push(i);
+
+            else {
+                int top = stack.pop();
+                maxArea = Math.max(maxArea, heights[top] * (stack.isEmpty() ? i: i-1-stack.peek()));
+                i--;
+            }
+        }
+        return maxArea;
+    }
+ */

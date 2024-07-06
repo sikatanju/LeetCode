@@ -211,7 +211,7 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     i. Search a 2D Matrix                -- /search-a-2d-matrix/                                -- Time : < 1 hour         -- Difficulty : Medium
 
 52. 19/03/23
-    i. Best Time to Buy & Sell Stock II     -- /best-time-to-buy-and-sell-stock-ii/             -- Time : Around 45 min    -- Difficulty : Medium
+    i. Best Time To Buy & Sell Stock II     -- /best-time-to-buy-and-sell-stock-ii/             -- Time : Around 45 min    -- Difficulty : Medium
 
 53. 20/03/23
     i. Spiral Matrix   -- 1 Sub             -- /spiral-matrix/                                  -- Time : < 36 min         -- Difficulty : Medium
@@ -229,17 +229,17 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     //  Runtime can be slightly improved.
 	
 57. 31/03/23
-	i. *Maximum Product Subarray           -- /maximum-product-subarray/                        -- Time : N/A    -- Difficulty : Medium
+	i. *Maximum Product Subarray           -- /maximum-product-subarray/                        -- Time : N/A              -- Difficulty : Medium
 	// Tried 3 submission in 45 min. Couldn't solve
 
 ------------------------------ After Two month Break ----------------------------------
 
 58. 01/06/23
-    i. *Insert Delete GetRandom            -- //insert-delete-getrandom-o1/                       -- Time : N/A    -- Difficulty : Medium
+    i. *Insert Delete GetRandom            -- /insert-delete-getrandom-o1/                      -- Time : N/A            -- Difficulty : Medium
     // Submitted 3 times, just couldn't get it right.
 
 59. 02/06/23
-    i. Rotate Array                        -- ///rotate-array/                                    -- Time : 30 min -- Difficulty : Medium
+    i. Rotate Array                        -- /rotate-array/                                    -- Time : 30 min         -- Difficulty : Medium
     // *Runtime can be improved (Try with LinkedList)
 
 60. 03/06/23
@@ -722,3 +722,123 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     i. Number of Changing Keys              -- /number-of-changing-keys/                        -- Time : < 5 min          -- Difficulty : Easy
     ii. Alice and Bob Playing Flower Game   -- /alice-and-bob-playing-flower-game/              -- Time :  N/A             -- Difficulty : Medium
     // Solved it on my own, but couldn't do it in contest. Anyway, came up with the solution later.
+
+172. 29/01/24
+    i. *N-Queens                             -- /n-queens/                                       -- Time :  N/A             -- Difficulty : Hard
+    // Needed help from Neetcode. Runtime could be improved.
+
+173. 30/01/24
+    i. N-Queen II                            -- /n-queens/                                       -- Time : < 8 min          -- Difficulty : Hard
+    // Similar problem as before. Runtime should be improved (4ms -> 0ms). Completed all backtracking problem from the Top interview question list.
+
+174. 31/01/24
+    i. *Word Search II                       -- /word-search-ii/                                 -- Time :  N/A             -- Difficulty : Hard
+    // Needed help, solved it on my own, but couldn't beat time limit (passed 61 out of 65 test cases). Runtime should be improved.
+
+175. 01/02/24
+    i. Candy                                 -- /candy/                                          -- Time : < 30 min          -- Difficulty : Hard
+    // Third `Hard` problem solved on my own :) (Okay I'll stop counting for real). Runtime is horrible, but we'll take it since this is a hard problem. Runtime must be improved.
+
+176. 05/02/24
+    i. *Maximum Good Subarray Sum            -- /maximum-good-subarray-sum/                      -- Time :  N/A              -- Difficulty : Medium
+    // Needed help, appeared on Weekly Contest 383. Runtime is 62ms, beats 100%.
+
+177. 07/02/24
+    i. *Minimum Time to Revert Word to Initial State I                                           -- Time :  N/A              -- Difficulty : Medium
+                                             -- /minimum-time-to-revert-word-to-initial-state-i/
+    // Needed help, appeared on WeeklyContest 383. Couldn't solve there, String Pattern matching algorithm. ;(. Runtime must be improved (0ms solution is easier to understand maybe).
+
+178. 08/02/24
+    i. *Median of two sorted arrays
+
+179. 09/02/24
+    i. Subarray Sum Equals K                 -- /subarray-sum-equals-k/                          -- Time : < 20 min          -- Difficulty : Medium
+    // Runtime must be improved.
+
+180. 12/02/24
+    i. *Text Justification                   -- /text-justification/                             -- Time :  N/A              -- Difficulty : Hard
+    // Needed help, :(. Need to revise.
+
+181. 13/02/24
+    i. *Maximal Square                       -- /maximal-square/                                 -- Time :  N/A              -- Difficulty : Medium
+    // Learned from NeetCode. Understood the problem thoroughly. Runtime could improved (12ms -> 6ms).
+
+182. 01/03/24
+    i. *Find the Largest Area of Square Inside Two Rectangles                                    -- Time :  N/A              -- Difficulty : Medium
+                                             -- /find-the-largest-area-of-square-inside-two-rectangles/
+
+183. 09/03/24
+    i. *Snakes and Ladders                   -- /snakes-and-ladders/                             -- Time :  N/A              -- Difficulty : Medium
+    // Needed help, could be revised. Runtime could be improved, currently better than 42% (at 9ms).
+
+184. 10/03/24 -- Weekly Contest 388
+    i. Apple Redistribution into Boxes       -- /apple-redistribution-into-boxes/                -- Time : 05:59 min         -- Difficulty : Easy
+    ii.Maximize Happiness of Selected Children
+                                             -- /maximize-happiness-of-selected-children/        -- Time : 05:47 min         -- Difficulty : Medium
+
+185. 11/03/24
+    i. *Shortest Uncommon Substring in an Array  // This problem is also from Weekly Contest 388
+    // Needed help, runtime cb improved     -- /shortest-uncommon-substring-in-an-array/         -- Time :  N/A              -- Difficulty : Medium
+
+186. 12/03/24
+    i. *Minimum Genetic Mutation            -- /minimum-genetic-mutation/                        -- Time :  N/A              -- Difficulty : Medium
+    // Needed help, runtime could be improved (1ms -> 0ms). (Graph BFS)
+
+187. 14/03/24
+    i. Word Ladder                          -- /word-ladder/                                     -- Time :  < 20 min         -- Difficulty : Hard
+    // Accepted on first try, runtime could/should be improved. (941ms -> 88ms). Best is around 32ms
+
+188. 16/03/24
+    i. *Best Time to Buy and Sell Stock III -- /best-time-to-buy-and-sell-stock-iii/             -- Time :  N/A              -- Difficulty : Hard
+    // Runtime is very good, could be implemented in DP. Since, it's a 2D problem.
+
+189. 17/03/24
+    i. *Best Time to Buy and Sell Stock IV  -- /best-time-to-buy-and-sell-stock-iv/              -- Time :  N/A              -- Difficulty : Hard
+    // Needed help, runtime could be improved (4ms -> 1ms). As always hard problems should be revised.
+
+190. 18/03/24
+    i. *Minimum Window Substring            -- /minimum-window-substring/                        -- Time :  N/A              -- Difficulty : Hard
+    // Needed help, should revise later. Runtime is already best.
+
+191. 20/03/24
+    i. Substring with Concatenation of All Words -- /substring-with-concatenation-of-all-words/  -- Time : < 30 min          -- Difficulty : Hard
+    // Runtime is better than 43% (at 1883 ms), best is 16ms. It could be improved.
+
+192. 23/03/24
+	i. *IPO                                 -- /ipo/                                             -- Time :  N/A              -- Difficulty : Hard
+	// Solved it, but couldn't make it in time, so couldn't solve it. Runtime could be improved.
+
+
+################# After a long break #########################
+
+193. 06/05/24
+    i. Design Twitter                      -- /design-twitter/                                    -- Time : > 1 hour         -- Difficulty : Medium
+    // Took some time, but been able to come up with a solution. Runtime could be improved (9ms -> 7ms).
+
+194. 10/05/24
+    i. *Palindromic Substrings             -- /palindromic-substrings/                            -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, need to revise (along with longest palindromic substring). Runtime could be improved (17ms -> 5ms).
+
+195. 12/05/24
+    i. *Decode Ways                        -- /decode-ways/                                       -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, DP problem, need to revise and learn all dp problem.
+
+196. 23/05/24
+    i. *Time Based Key-Value Store         -- /time-based-key-value-store/                        -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, I solved it in brute force, couldn't beat time limit, learned a new Implementation of Map: `TreeMap`. Could be revised.
+
+197. 27/06/24
+    i. *Valid Parenthesis String           -- /valid-parenthesis-string/description/              -- Time :  N/A             -- Difficulty : Medium
+    // Needed help (Neetcode). Runtime is best.
+
+198. 29/06/24
+    i. Partition Labels                    -- /partition-labels/                                  -- Time : <30min           -- Difficulty : Medium
+    // Runtime is better than 48% (at 8ms). Runtime could be improved (8ms -> 0ms)
+
+199. 01/07/24
+    i. Merge Triplets to Form Target Triplet. -- /merge-triplets-to-form-target-triplet/          -- Time : <30min           -- Difficulty : Medium
+    // Solved it on my own, runtime could be improved (1ms -> 0ms) :)
+
+200. 06/07/24
+    i. Fibonacci Number                    -- /fibonacci-number/                                  -- Time : <10 min          -- Difficulty : Easy
+    i. N-th Tribonacci Number              -- /n-th-tribonacci-number/                            -- Time : <3 min           -- Difficulty : Easy

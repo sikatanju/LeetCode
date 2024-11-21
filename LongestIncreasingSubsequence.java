@@ -1,3 +1,5 @@
+import java.util.TreeSet;
+
 public class LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {
         int len = nums.length, maxLen = Integer.MIN_VALUE;
@@ -19,6 +21,24 @@ public class LongestIncreasingSubsequence {
             tempIndex++;
         }
         return maxLen;
+    }
+
+
+    public int lengthOfLIS2(int[] nums) {
+        if(nums.length == 0) return 0;
+        TreeSet<Integer> treeSet = new TreeSet<>();
+        treeSet.add(nums[0]);
+
+        for(int i = 1; i < nums.length; i++) {
+            if (nums[i] > treeSet.last()) {
+                //treeSet.add(nums[i]);
+            } else {
+                int itemToBeReplaced = treeSet.ceiling(nums[i]);
+                treeSet.remove(itemToBeReplaced);
+            }
+            treeSet.add(nums[i]);
+        }
+        return treeSet.size();
     }
 }
 
@@ -50,7 +70,7 @@ class Solution {
 
 /* ########## Runtime : 12ms
 class Solution {
-    public int lengthOfLIS(int[] nums) {
+    public int lengthOfLIS2(int[] nums) {
         if(nums.length == 0) return 0;
         TreeSet<Integer> treeSet = new TreeSet<>();
         treeSet.add(nums[0]);

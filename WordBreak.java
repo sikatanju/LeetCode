@@ -2,7 +2,54 @@ import java.util.HashSet;
 import java.util.List;
 
 public class WordBreak {
+
+    /*
     public boolean wordBreak(String s, List<String> wordDict) {
+        JustForPractice.Trie trie = new JustForPractice.Trie();
+        for (var word: wordDict)
+            trie.addWord(word);
+
+        int len = s.length();
+        char[] arr = s.toCharArray();
+        boolean[] dp = new boolean[len+1];
+        dp[0] = true;
+        for (int i=0; i<len; i++)   {
+            if (dp[i])  {
+                int j = i;
+                JustForPractice.Trie temp = trie;
+                while (j < len && temp.children[arr[j]-'a'] != null) {
+                    temp = temp.children[arr[j]-'a'];
+                    j++;
+                    if (temp.isWord)
+                        dp[j] = true;
+                }
+            }
+        }
+        return dp[len];
+    }
+    class Trie  {
+        public Trie[] children;
+        public boolean isWord;
+        Trie()  {
+            this.children = new Trie[26];
+            this.isWord = false;
+        }
+        public void addWord(String str)   {
+            Trie temp = this;
+            for (char ch: str.toCharArray())    {
+                if (temp.children[ch-'a'] == null)
+                    temp.children[ch-'a'] = new Trie();
+
+                temp = temp.children[ch-'a'];
+            }
+            temp.isWord = true;
+        }
+    }*/
+}
+
+
+/* Previous 4ms solution:
+    public boolean wordBreak2(String s, List<String> wordDict) {
         int len = s.length();
         boolean[] dp = new boolean[len+1];
         dp[len] = true;
@@ -19,9 +66,61 @@ public class WordBreak {
         }
         return dp[0];
     }
+ */
+/* 1ms solution with Trie:
+
+class SolutionTrie {
+    public boolean wordBreak(String s, List<String> wordDict) {
+        Trie trie = new Trie();
+        for(String word:wordDict){
+            trie.add(word);
+        }
+        int len = s.length();
+        boolean[] dp = new boolean[len+1];
+        dp[0]=true;
+        for(int i=0; i<len; i++){
+            if(dp[i]==true){
+                int j=i;
+                Trie tmp = trie;
+                // must have j less than len
+                // otherwise it would exceed the length of string
+                while(j < len && tmp.children[s.charAt(j)-'a'] != null){
+                    tmp = tmp.children[s.charAt(j)-'a'];
+                    j++;
+                    if(tmp.isWord){
+                        dp[j]=true;
+                    }
+                }
+
+            }
+        }
+        // for(boolean b:dp){
+        //     System.out.println(b);
+        // }
+        return dp[len];
+    }
+
+    class Trie{
+        public Trie[] children;
+        public boolean isWord;
+        Trie(){
+            children = new Trie[26];
+            isWord = false;
+        }
+
+        public void add(String s){
+            Trie t = this;
+            for(char c:s.toCharArray()){
+                if(t.children[c-'a']==null){
+                    t.children[c-'a']=new Trie();
+                }
+                t=t.children[c-'a'];
+            }
+            t.isWord=true;
+        }
+    }
 }
-
-
+ */
 /* 0ms runtime :
 
 class Solution {

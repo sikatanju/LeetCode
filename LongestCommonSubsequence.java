@@ -1,5 +1,31 @@
 public class LongestCommonSubsequence {
     public int longestCommonSubsequence(String str1, String str2) {
+        if (str1.length() < str2.length())
+            return longestCommonSubsequence(str2, str1);
+
+        int str1Len = str1.length(), str2Len = str2.length();
+        char[] charArray1 = str1.toCharArray(), charArray2 = str2.toCharArray();
+
+        int[] prev = new int[str1Len + 1];
+        int[] curr = new int[str2Len + 1];
+
+        for (int i=1; i<=str1Len; i++)  {
+            for (int j=1; j<=str2Len; j++)   {
+                if (charArray1[i-1] == charArray2[j-1])
+                    curr[j] = prev[j-1] + 1;
+                else
+                    curr[j] = Math.max(curr[j-1], prev[j]);
+            }
+            int[] temp = prev;
+            prev = curr;
+            curr = temp;
+        }
+        return prev[str2Len];
+    }
+}
+
+/* Previous 9ms solution (neetcode):
+    public int longestCommonSubsequence(String str1, String str2) {
         char[] strArray1 = str1.toCharArray();
         char[] strArray2 = str2.toCharArray();
 
@@ -16,7 +42,8 @@ public class LongestCommonSubsequence {
         }
         return dp[str1Len][str2Len];
     }
-}
+ */
+
 
 /* Best Runtime 5ms :
 
@@ -55,7 +82,6 @@ class Solution {
         int[] current = new int[m + 1];
 
         char[] t1 = text1.toCharArray();
-
         char[] t2 = text2.toCharArray();
 
         for (int i = 1; i <= n; i++) {
@@ -66,12 +92,10 @@ class Solution {
                     current[j] = Math.max(previous[j], current[j - 1]);
                 }
             }
-
             int[] temp = previous;
             previous = current;
             current = temp;
         }
-
         return previous[m];
     }
 }

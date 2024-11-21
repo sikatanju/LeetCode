@@ -211,7 +211,7 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     i. Search a 2D Matrix                -- /search-a-2d-matrix/                                -- Time : < 1 hour         -- Difficulty : Medium
 
 52. 19/03/23
-    i. Best Time To Buy & Sell Stock II     -- /best-time-to-buy-and-sell-stock-ii/             -- Time : Around 45 min    -- Difficulty : Medium
+    i. Best Time To Buy And Sell Stock II     -- /best-time-to-buy-and-sell-stock-ii/           -- Time : Around 45 min    -- Difficulty : Medium
 
 53. 20/03/23
     i. Spiral Matrix   -- 1 Sub             -- /spiral-matrix/                                  -- Time : < 36 min         -- Difficulty : Medium
@@ -842,3 +842,275 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 200. 06/07/24
     i. Fibonacci Number                    -- /fibonacci-number/                                  -- Time : <10 min          -- Difficulty : Easy
     i. N-th Tribonacci Number              -- /n-th-tribonacci-number/                            -- Time : <3 min           -- Difficulty : Easy
+
+201. 10/07/24
+    i. *Perfect Squares                    -- /perfect-squares/                                   -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, runtime could be improved. Could revise later.
+
+202. 12/07/24
+    i. Min Cost Climbing Stairs            -- /min-cost-climbing-stairs/                          -- Time : <20 min          -- Difficulty : Easy
+    // DP problem, runtime is already best. Kinda similar to `Climbing Stairs` problem.
+
+203. 13/07/24
+    i. Delete and Earn                     -- /delete-and-earn/                                   -- Time : < 40min          -- Difficulty : Medium
+    // DP problem, runtime is worst (although solved it by myself). Runtime should be improved (29ms -> 1ms).
+
+204. 15/07/24
+    i. *Minimum Cost for Cutting Cake I    -- /minimum-cost-for-cutting-cake-i/                   -- Time :  N/A             -- Difficulty : Medium
+    // Encountered this problem in Weekly Contest406, couldn't solve it. Used greedy approach.
+
+205. 29/07/24
+    i. Minimum Falling Path Sum            -- /minimum-falling-path-sum/                          -- Time : < 20min          -- Difficulty : Medium
+
+    // DP problem, runtime could be improved (7ms -> 0ms).
+
+206. 31/07/24
+    i. #Triangle  -- Revision -- Runtime : 0ms.
+
+207. 01/08/24
+    i. Maximal Square -- Revision -- Runtime : 10ms (previous was 14ms).
+
+208. 03/08/24
+    i. *Minimum Cost For Tickets           -- /minimum-cost-for-tickets/                          -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, needed help, runtime could be improved (3ms -> 0ms)
+
+209. 06/08/24
+    i. *Walls and Gates                    -- /walls-and-gates/                                   -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, also premium problem, solved it on Neetcode.io : https://neetcode.io/problems/islands-and-treasure
+
+210. 07/08/24
+    i. Longest Common Subsequence -- Revision -- Runtime: 5ms (best). Previous runtime was  9ms.
+
+211. 08/08/24
+    i. *Find the Count of Numbers Which Are Not Special                                           -- Time :  N/A             -- Difficulty : Medium
+                                           -- /find-the-count-of-numbers-which-are-not-special/
+    // From LeetCode contest 408, learned Sieve of Eratosthenes.
+
+212. 09/08/24
+    i. Shortest Distance After Road Addition Queries I                                            -- Time :  N/A             -- Difficulty : Medium
+                                           -- /shortest-distance-after-road-addition-queries-i/
+
+
+    // Appeared on LeetCode Weekly Contest 409, solved it then. Just improved runtime & learned a better approach. Runtime still could be improved. Should revise later.
+
+213. 10/08/24
+    i. Edit Distance -- Revision. Improved runtime (7ms -> 3ms). Should revise later. Recursive solution isn't easy to understand.
+
+214. 12/08/24
+    i. *Count the Number of Good Nodes     -- /count-the-number-of-good-nodes/                    -- Time :  N/A             -- Difficulty : Medium
+
+    // This problem is from LeetCode Weekly Contest 410, couldn't solve it then, time limit exceeded. Learned the dfs approach.
+
+215. 14/08/24
+    i.  Longest Palindromic Substring -- Revised (in my secondary account), understood the solution better, runtime could be improved.
+    ii. *Longest Palindromic Subsequence   -- /longest-palindromic-subsequence/                   -- Time :  N/A             -- Difficulty : Medium
+    // DP -- Similar to the previous problem, but still needed some help. Runtime is okay, could be improved.
+
+216. 15/08/24
+    i. Word Break -- Revision. Improved runtime (4ms -> 1ms). Implemented with Trie;
+
+217. 17/08/24
+    i. *Minimum ASCII Delete Sum for Two Strings                                                  -- Time :  N/A             -- Difficulty : Medium
+                                           -- /minimum-ascii-delete-sum-for-two-strings/
+    // DP problem, almost solved it. Runtime is better than 99%. Similar to Edit distance problem. (Hope to get the next one).
+
+218. 18/08/24
+    i. *Maximum Energy Boost From Two Drinks                                                      -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximum-energy-boost-from-two-drinks/
+
+    // DP problem, should have been able to solve myself, from LeetCodeWeeklyContest_411. Runtime is best.
+
+219. 19/08/24
+    i. *Count Square Submatrices with All Ones                                                    -- Time :  N/A             -- Difficulty : Medium
+                                           -- /count-square-submatrices-with-all-ones/
+    // Just short of one line. Runtime is beats 72% at 6ms. Similar to Maximal Square.
+
+220. 20/08/24
+    i. *Dungeon Game                       -- /dungeon-game/                                      -- Time :  N/A             -- Difficulty : Hard
+    i. *Coin Change II                     -- /coin-change-ii/
+    // DP Close to solving it, but needed help at the end. Runtime could be improved (2ms -> 0ms)
+
+221. 23/08/24
+    i. *Best Time to Buy and Sell Stock with Cooldown                                             -- Time :  N/A             -- Difficulty : Medium
+                                           -- /best-time-to-buy-and-sell-stock-with-cooldown/
+    // DP problem, needed help. Runtime is best.
+
+222. 24/08/24
+    i. *Coin Change II                     -- /coin-change-ii/                                    -- Time :  N/A             -- Difficulty : Medium
+    // DP problem 2D, From NeetCode's Roadmap. Understood the solution, implemented the code by myself. Runtime could be improved (8ms -> 2ms).
+
+223. 26/08/24
+    i. *Count Almost Equal Pairs I         -- /count-almost-equal-pairs-i/                        -- Time :  N/A             -- Difficulty : Medium
+    // Should have been able to solve it by myself. Anyway runtime is best as of now.
+
+224. 28/08/24
+    i. *Pacific Atlantic Water Flow        -- /pacific-atlantic-water-flow/                       -- Time :  N/A             -- Difficulty : Medium
+    // Graph problem. Needed help, couldn't understand the problem quite clearly, runtime is better than 97% at 4ms.
+
+225. 29/08/24
+    i *Redundant Connection                -- /redundant-connection/                              -- Time :  N/A             -- Difficulty : Medium
+    // UnionFind (by rank) problem, learned the algorithm then implemented myself. Runtime is 0ms.
+
+226. 31/08/24
+    i. Maximum Length of Pair Chain        -- /maximum-length-of-pair-chain/                      -- Time :  < 20min         -- Difficulty : Medium
+    // DP problem, runtime should be improved (22ms -> 2ms). Just glad to solve.
+
+227. 01/09/24
+    i. *K-th Nearest Obstacle Queries      -- /k-th-nearest-obstacle-queries/                     -- Time :  N/A             -- Difficulty : Medium
+
+    // PriorityQueue problem, should've solved it myself :(. Came up in weekly contest 413.
+
+228. 02/09/24
+    i. *Number of Longest Increasing Subsequence                                                  -- Time :  N/A             -- Difficulty : Medium
+                                           -- /number-of-longest-increasing-subsequence/
+    // DP problem, similar to Longest Increasing subsequence, runtime is better than 85%.
+
+229. 03/09/24
+    i. *Longest Arithmetic Subsequence     -- /longest-arithmetic-subsequence/                    -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, was close to solving it, just missed one point. Runtime should be improved (490ms -> 42ms).
+
+230. 04/09/24
+    i. *Longest Arithmetic Subsequence of Given Difference                                        -- Time :  N/A             -- Difficulty : Medium
+                                           -- /longest-arithmetic-subsequence-of-given-difference/
+    // DP problem, similar to Longest Arithmetic Subsequence, runtime is better than 55%, runtime should be improved (46ms -> 3ms)
+
+231. 06/09/24
+    i. *Russian Doll Envelopes             -- /russian-doll-envelopes/                            -- Time :  N/A             -- Difficulty : Hard
+    // DP problem, similar to Longest increasing subsequence, but here given a matrix. Runtime is okay (at 51ms, it could be 31ms)
+
+232. 07/09/24
+    i. Find the Longest Valid Obstacle Course at Each Position                                    -- Time :  < 15 min        -- Difficulty : Hard
+                                           -- /find-the-longest-valid-obstacle-course-at-each-position/
+    // DP problem, used the binary search on longest increasing subsequence. Runtime should be improved (77ms -> 24ms).
+
+233. 08/09/24
+    i. *Uncrossed Lines                    -- /uncrossed-lines/                                   -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, similar to Longest common subsequence. Runtime is good enough (better then 97%).
+
+234. 13/10/24
+    i. *Best Time to Buy and Sell Stock with Transaction Fee                                      -- Time :  N/A             -- Difficulty : Medium
+                                           -- /best-time-to-buy-and-sell-stock-with-transaction-fee/
+    // DP problem, needed help, runtime should be improved (6ms -> 3ms), 3ms approach is little simpler to understand.
+
+235. 15/10/24
+    i. *Partition Array for Maximum Sum    -- /partition-array-for-maximum-sum/                   -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, very intuitive solution, couldn't have come up with my own. Need to revise. Learned from AlgoMonster.
+
+236. 22/10/24
+    i. *Unique Binary Search Trees         -- /unique-binary-search-trees/                        -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, needed help, Need to revise. Runtime beats 100% at 0ms.
+
+237. 24/10/24
+    i. *Unique Binary Search Trees II      -- /unique-binary-search-trees-ii/                     -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, needed help & need to revise. Runtime could be improved (1ms -> 0ms).
+
+238. 26/10/24
+    i. *House Robber III                   -- /house-robber-iii/                                  -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, learned from NeetCode, understood the problem thoroughly, then implemented myself. Runtime is best.
+
+239. 27/10/24
+    i. *Solving Questions With Brainpower  -- /solving-questions-with-brainpower/                 -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, should've been able to solve by myself. Runtime beats 98% at 5ms.
+
+240. 29/10/24
+    i. *Domino and Tromino Tiling          -- /domino-and-tromino-tiling/                         -- Time :  N/A             -- Difficulty : Medium
+    // DP problem, needed help & need to revise. Runtime is best(0ms).
+
+241. 31/10/24
+    i. *Distinct Subsequences              -- /distinct-subsequences/                             -- Time :  N/A             -- Difficulty : Hard
+    // DP problem, somewhat similar to LCS, runtime could be improved (8ms->2ms, though still better than 93%). Need to revise with LCS.
+
+242. 01/11/24
+    i. *Longest Increasing Path in a Matrix                                                       -- Time :  N/A             -- Difficulty : Hard
+                                           -- https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
+    // DP problem, needed help, implemented with dfs with caching. Runtime could be improved (8ms -> 6ms). Need to revise.
+
+243. 02/11/24
+    i. Target Sum                          -- /target-sum/                                        -- Time : < 20 min         -- Difficulty : Medium
+    // Solved it on my own, but runtime is horrible. Runtime must be improved (683ms -> 5-10ms)
+
+244. 04/11/24
+    i. *Regular Expression Matching        -- /regular-expression-matching/                       -- Time :  N/A             -- Difficulty : Hard
+    // DP problem, learned from Neetcode, need to revise. Runtime is best at 1ms.
+
+245. 05/11/24
+    i. *Sum of Two Integers                -- /sum-of-two-integers/                               -- Time :  N/A             -- Difficulty : Medium
+    // Bit manipulation problem, learned from Neetcode. Runtime is best.
+
+246. 07/11/24
+    i.  *Missing Number                    -- /missing-number/                                    -- Time :  N/A             -- Difficulty : Easy
+    ii. *Counting Bits                     -- /counting-bits/                                     -- Time :  N/A             -- Difficulty : Medium
+    // Bit manipulation problems, Learned from Neetcode.
+
+247. 08/11/24
+    i. *Burst Balloons                      -- /burst-balloons/                                   -- Time :  N/A             -- Difficulty : Hard
+    // DP problem, learned from Neetcode. Runtime is horrible, need to revise & learn bottom-up approach.
+
+248. 09/11/24
+    i.  *Find Minimum Time to Reach Last Room I                                                   -- Time :  N/A             -- Difficulty : Medium
+                                           -- /find-minimum-time-to-reach-last-room-i/
+    ii. *Find Minimum Time to Reach Last Room II                                                  -- Time :  N/A             -- Difficulty : Hard
+                                           -- /find-minimum-time-to-reach-last-room-ii/
+
+    // Shortest Path algorithm problem, came up on weekly contest 422, couldn't solve it then, learned the algorithm. Runtime is good enough.
+
+249. 11/11/24
+    i. Adjacent Increasing Subarrays Detection II                                                 -- Time : < 40 min         -- Difficulty : Medium
+                                           -- /adjacent-increasing-subarrays-detection-ii/
+    // Couldn't solve it in Weekly Contest 423, later came up with the solution. Runtime is best as of now.
+
+    ii. *Graph Valid Tree                  -- /graph-valid-tree/                                  -- Time :  N/A             -- Difficulty : Medium
+    // Learned from Neetcode, pretty basic graph problem, should have been able to come up with the solution by myself. Premium problem, solved it in LintCode.
+    // There is a solution with UnionFind, code is in the file, later could revise it.
+
+250. 12/11/24
+    i. *Number of Connected Components In An Undirected Graph                                     -- Time :  N/A             -- Difficulty : Medium
+                                           -- /number-of-connected-components-in-an-undirected-graph/
+    // Needed help, completed Graphs section in Neetcode.
+
+251. 13/11/24
+    i.   Balanced Binary Tree              -- /balanced-binary-tree/                              -- Time :  < 5 min         -- Difficulty : Easy
+    ii.  Diameter of Binary Tree           -- /diameter-of-binary-tree/                           -- Time :  < 10 min        -- Difficulty : Easy
+    iii. *Subtree of Another Tree          -- /subtree-of-another-tree/                           -- Time :  N/A             -- Difficulty : Easy
+    // One problem to complete `Trees` section from Neetcode.
+
+252. 14/11/24
+    i. *Serialize and Deserialize Binary Tree                                                     -- Time :  N/A             -- Difficulty : Hard
+                                           -- /serialize-and-deserialize-binary-tree/
+    // Needed help, Completed `Trees` section from Neetcode. Runtime could be improved (19ms -> 1ms).
+
+253. 15/11/24
+    i. Sliding Window Maximum              -- /sliding-window-maximum/                            -- Time: < 50 min          -- Difficulty : Hard
+    // Solved it by myself. Runtime is bad though. Must improve runtime. (632ms -> 4ms)
+
+254. 16/11/24
+    i. Encode and Decode Strings           -- /encode-and-decode-strings/                         -- Time: < 40 min          -- Difficulty : Medium
+    // Premium Problem, solved it on NeetCode & LintCode: https://www.lintcode.com/problem/659/description, Completed `Array&Hashing` section on NeetCode.
+
+255. 18/11/24
+    i. Meeting Rooms                       -- /meeting-rooms/                                     -- Time : < 20 min         -- Difficulty : Easy
+    // Premium problem, solved it on LintCode & Neetcode.io.
+
+    ii. *Zero Array Transformation I       -- /zero-array-transformation-i/                       -- Time :  N/A             -- Difficulty : Medium
+    // Came up in Weekly Contest 424, couldn't solve it then. Solved it with `imos` method, half understood the algorithm. Need to revise.
+
+255. 20/11/24
+    i. *Cheapest Flights Within K Stops    -- /cheapest-flights-within-k-stops/                   -- Time :  N/A             -- Difficulty : Medium
+    // Learned from NeetCode, implemented using Bellman Form Algorithm, runtime should be improved (just use recursion).
+
+256. 21/11/24
+    i. *Network Delay Time                 -- /network-delay-time/                                -- Time :  N/A             -- Difficulty : Medium
+    // Completed using Bellman Ford Algorithm, couldn't get the answer at the end. Runtime should be improved.
+    // *** --> Also need to learn different algorithm like `shortest path algorithm` or `Dijkstra's Algorithm` for the same above two problem.
+
+
+
+
+***. **/**/**
+    i. *Dummy problem name                 -- /dummy-problem-name-just-to-see/                    -- Time :  N/A             -- Difficulty : Medium
+
+***. **/**/**
+    i. Long long dummy dummy dummy dummy dummy problem                                            -- Time :  N/A             -- Difficulty : Hard
+
+                                           -- /long dummy dummy dummy dummy dummy problem/
+

@@ -1,12 +1,93 @@
+import com.sun.source.tree.Tree;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.Comparator;
+import java.util.List;
+import java.util.PriorityQueue;
 
 public class CodeRunner {
-    public static void main(String[] args)  {
-        System.out.println(new FibonacciNumber().fib(30));
+    public static void main(String[] args) {
+        int[] ara = {0,10};
+        int[][] arr = {{0, 0}, {0, 1}, {1, 1}, {0, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1},
+                        {0, 1}, {0, 0}, {0, 1}, {0, 0}};
+        int[][] flights = { {1,2,1}, {2,3,7}, {1,3,4}, {2, 1, 2}};
+        System.out.println(new NetworkDelayTime().networkDelayTime(flights, 3,  2));
     }
 }
+//int[] ara = {5};
+//        int[] ara = {10};
+//        System.out.println(new BestTimeToBuyAndSellStockWithCooldown().maxProfit(ara));
+//        System.out.println(new CoinChangeII().change(10, ara));
+//        int[][] ara = {{1,1}, {1,1}};
+//        System.out.println(new CountSquareSubmatricesWithAllOnes().countSquares(ara));
+        /*
+        int[][] ara = {
+                {0,1},
+                {0,2},
+                {1,3},
+                {1,4},
+                {2,5},
+                {2,6}
+        };
+        int[][] ara1
+                = {
+                {0,1}, {1,2}, {1,3}, {1,4}, {0,5},
+                {5,6}, {6,7}, {7,8}, {0,9}, {9,10},
+                {9,12}, {10,11}
+        };
+        int[][] ara2
+                = {
+                {6,0}, {1,0}, {5,1}, {2,5}, {3,1},
+                {4,3}
+        };
+        int[][] ara3
+                = {
+                {4,0}, {3,4}, {1,3}, {2,3}
+        };*/
+        /*
+        [0,0],[1,0],[1,1],[0,1],[1,1],[1,1]
+        [4,0],[3,4],[1,3],[2,3]
+
+//        [0,1],[1,2],[1,3],[1,4],[0,5],[5,6],[6,7],[7,8],[0,9],[9,10],[9,12],[10,11]
+//          [0,1],[0,2],[1,3],[1,4],[2,5],[2,6]
+//        [[0,2],[0,4]]
+
+//        System.out.println(new WeeklyContest410().finalPositionOfSnake(3, List.of("DOWN","RIGHT","UP")));
+
+//        System.out.println(new JustForPractice().longestPalindrome("abcba"));
+//        System.out.println(new JustForPractice().wordBreak("catsdogsandandcat", List.of("cats","dog","sand","and","cat")));
+
+//        System.out.println(new MinimumASCIIDeleteSumForTwoStrings().minimumDeleteSum("sea", "eat"));
+//        [2,4],[0,2],[0,4]
+
+        int[] arr1 = {1,5,2,1};
+        int[] arr2 = {3,1,1,4};
+        System.out.println(new WeeklyContest411().maxEnergyBoost(arr1, arr2));*/
+
+
+//        System.out.println(new JustForPractice().minimumTotal(listOfLists));
+//
+////        String temp = "31";
+//        ListNode first = new ListNode(2);
+//        ListNode first1 = new ListNode(3);
+//        ListNode first2 = new ListNode(1);
+//        ListNode first3 = new ListNode(4);
+//        ListNode first4 = new ListNode(5);
+//        ListNode first5 = new ListNode(2);
+//        ListNode head = new ListNode(0);
+//        head.next = first;
+//        first.next = first2;
+//        first2.next = first3;
+//        first3.next = first4;
+//        first4.next = first5;
+//        ListNode temp = new WeeklyContest406().modifiedList(ara, head);
+//
+//        while (temp != null)    {
+//            System.out.println(temp.val);
+//            temp = temp.next;
+//        }
 
 
 

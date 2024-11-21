@@ -2,6 +2,25 @@ import java.util.List;
 
 public class Triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
+        int size = triangle.size();
+        Integer[][] dp = new Integer[size][size];
+        return helper(0, 0, size, dp, triangle);
+    }
+    private int helper(int i, int j, int n, Integer[][] dp, List<List<Integer>> list)   {
+        if (i >= n)
+            return 0;
+
+        if (dp[i][j] != null)
+            return dp[i][j];
+
+        return dp[i][j] = list.get(i).get(j) + Math.min(helper(i+1, j, n, dp, list), helper(i+1, j+1, n, dp, list));
+    }
+}
+
+/* 0ms runtime:
+
+
+    public int minimumTotal(List<List<Integer>> triangle) {
         if (triangle.size() == 1)
             return triangle.get(0).get(0);
 
@@ -14,9 +33,8 @@ public class Triangle {
         }
         return dp[0][0];
     }
-}
 
-/* 0ms runtime:
+########################
 
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
@@ -74,3 +92,26 @@ class Solution {
     }
 }
  */
+
+class SolutionTriangle {
+    public int minimumTotal(List<List<Integer>> triangle) {
+        int n=triangle.size();
+        Integer[][] memo=new Integer[n][n];
+        return dfs(triangle,memo,0,0);
+    }
+    private int dfs(List<List<Integer>> triangle,Integer[][] memo,int row,int col){
+        if(memo[row][col]!=null)
+            return memo[row][col];
+        int path=triangle.get(row).get(col);
+        if(row<triangle.size()-1){
+            path+=Math.min(dfs(triangle,memo,row+1,col),dfs(triangle,memo,row+1,col+1));
+        }
+        memo[row][col]=path;
+        return path;
+    }
+}
+
+
+
+
+

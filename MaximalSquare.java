@@ -1,5 +1,42 @@
 public class MaximalSquare {
     public int maximalSquare(char[][] matrix) {
+        int maxSquare = Integer.MIN_VALUE, rowLen = matrix.length, columnLen = matrix[0].length;
+        int[][] dp = new int[rowLen][columnLen];
+
+        for (int i=rowLen-1; i>=0; i--) {
+            if (matrix[i][columnLen-1] == '1')  {
+                dp[i][columnLen-1] = 1;
+                maxSquare = Math.max(maxSquare, 1);
+            }
+        }
+        for (int j=columnLen-1; j>=0; j--)  {
+            if (matrix[rowLen-1][j] == '1') {
+                dp[rowLen-1][j] = 1;
+                maxSquare = Math.max(maxSquare, 1);
+            }
+        }
+
+        for (int i=rowLen-2; i>=0; i--) {
+            for (int j=columnLen-2; j>=0; j--)  {
+                int current = matrix[i][j] - '0';
+                if (current == 0)   {
+                    dp[i][j] = 0;
+                }   else if (current == 1)  {
+                    dp[i][j] = 1;
+                }
+                if (dp[i][j] == 1 && j < columnLen-1)   {
+                    int rightValue = dp[i][j+1], bottomValue = dp[i+1][j], diagValue = dp[i+1][j+1];
+                    dp[i][j] = 1 + Math.min(rightValue, Math.min(bottomValue, diagValue));
+                    maxSquare = Math.max(maxSquare, dp[i][j]);
+                }
+            }
+        }
+        return maxSquare*maxSquare;
+    }
+}
+
+/* Mine Old Code:
+public int maximalSquareOld(char[][] matrix) {
         int rowLen = matrix.length, columnLen = matrix[0].length;
         int maxSquare = Integer.MIN_VALUE;
         if (rowLen == 1 && columnLen == 1)
@@ -81,7 +118,7 @@ public class MaximalSquare {
         }
         return maxSquare*maxSquare;
     }
-}
+ */
 
 
 /* Best runtime 6ms: // Mine was: 12ms

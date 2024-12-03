@@ -7,7 +7,34 @@ import java.util.PriorityQueue;
 // import java.util.Stack;
 
 public class JustForPractice {
-    public int maxProfit(int[] prices) {
+    public String multiply(String num1, String num2) {
+        int len1 = num1.length(), len2 = num2.length();
+        char[] chars1 = num1.toCharArray(), chars2 = num2.toCharArray();
+        int[] results = new int[len1+len2];
+        for (int i=len2-1; i>=0; i--)   {
+            for (int j=len1-1; j>=0; j--)   {
+                int res = (chars2[i]-'0')*(chars1[j]-'0');
+                int mulPos = i+j, modPos = i+j+1;
+                int sum = res + results[modPos];
+                results[mulPos] += sum/10;
+                results[modPos] = sum%10;
+            }
+        }
+        StringBuilder stringBuilder = new StringBuilder();
+        for (var num: results)  {
+            if (!stringBuilder.isEmpty())   {
+                stringBuilder.append(num);
+            }   else {
+                if (num != 0)
+                    stringBuilder.append(num);
+            }
+        }
+        return stringBuilder.isEmpty() ? "0" : stringBuilder.toString();
+    }
+}
+
+/*
+public int maxProfit(int[] prices) {
         int b1 = Integer.MIN_VALUE, b2 = Integer.MIN_VALUE;
         int s1 = 0, s2 = 0;
         for (var price: prices) {
@@ -18,7 +45,7 @@ public class JustForPractice {
         }
         return s2;
     }
-}
+ */
 
 
 /*

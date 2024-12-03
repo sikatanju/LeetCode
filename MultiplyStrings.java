@@ -18,6 +18,11 @@ public class MultiplyStrings    {
         for (int num : result)
             if (!(sb.length() == 0 && num == 0))
                 sb.append(num);
+
         return sb.length() == 0 ? "0" : sb.toString();
     }
 }
+
+/* Best runtime: 1ms:
+
+ */

@@ -9,11 +9,14 @@ import java.util.PriorityQueue;
 
 public class CodeRunner {
     public static void main(String[] args) {
-        int[] ara = {0,10};
-        int[][] arr = {{0, 0}, {0, 1}, {1, 1}, {0, 1}, {1, 1}, {1, 1}, {1, 1}, {1, 1},
-                        {0, 1}, {0, 0}, {0, 1}, {0, 0}};
-        int[][] flights = { {1,2,1}, {2,3,7}, {1,3,4}, {2, 1, 2}};
-        System.out.println(new NetworkDelayTime().networkDelayTime(flights, 3,  2));
+//        int[][] grid = {{0, 2}, {1, 3}};
+//        int[][] intervals = {{1,4}, {2,4}, {3,6}, {4,4}};
+        int[][] intervals = {{1,3}, {2,3}, {3,7}, {6,6}};
+//        int[] queries = {441,203,-158,396,-317};
+        int[]queries = {6,-31,50,-35,41,37,-42,13};
+//        -108,-108,-517
+        String str1 = "123", str2 = "26";
+        System.out.println(new JustForPractice().multiply(str1, str2));
     }
 }
 //int[] ara = {5};

@@ -21,14 +21,15 @@ public class MeetingRooms {
         }
         return true;
     }
-}
-class Interval {
-    public int start, end;
-    public Interval(int start, int end) {
-        this.start = start;
-        this.end = end;
+    private class Interval {
+        public int start, end;
+        public Interval(int start, int end) {
+            this.start = start;
+            this.end = end;
+        }
     }
 }
+
 /*
 class Interval {
     public int start, end;

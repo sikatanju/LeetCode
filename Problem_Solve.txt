@@ -1103,7 +1103,45 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     // Completed using Bellman Ford Algorithm, couldn't get the answer at the end. Runtime should be improved.
     // *** --> Also need to learn different algorithm like `shortest path algorithm` or `Dijkstra's Algorithm` for the same above two problem.
 
+256. 23/11/24
+    i. *Min Cost to Connect All Points     -- /min-cost-to-connect-all-points/                    -- Time :  N/A             -- Difficulty : Medium
+    // Learned from NeetCode using Prim's Algorithm. Runtime could be improved (217ms -> 20ms)
+    // *** --> Also need to learn different algorithm like `Prim's Algorithm (Optimal)`` or `Kruskal's Algorithm` for this problem.
 
+257. 25/11/24
+    i. *Reconstruct Itinerary              -- /reconstruct-itinerary/                             -- Time :  N/A             -- Difficulty : Hard
+    // Needed help, implemented using Hierholzer's Algorithm. Runtime is almost best (ours 5ms, best 4ms).
+
+258. 26/11/24
+    i. Swim in Rising Water                -- /swim-in-rising-water/                              -- Time :  <35 min         -- Difficulty : Hard
+    // Implemented using MinHeap(shortest path).. Runtime could be improved (10ms -> 0ms).
+
+259. 27/11/24
+    i. *Detect Squares                     -- /detect-squares/                                    -- Time :  N/A             -- Difficulty : Medium
+    // Learned from NeetCode, Math & Geometry Problem, need to revise. Runtime is 146ms.
+
+260. 28/11/24
+    i. *Alien Dictionary                     -- /alien-dictionary/                                -- Time :  N/A             -- Difficulty : Hard
+    // Advanced Graph problem, completed Advanced Graph list in NeetCode roadmap. Couldn't see runtime as it's a premium problem. Good to revise.
+
+261. 30/11/24
+    i. *Minimum Interval to Include Each Query                                                    -- Time :  N/A             -- Difficulty : Hard
+                                           -- /minimum-interval-to-include-each-query/
+    // Interval problem, needed help. Runtime could be improved (99ms -> 79ms). Revise is suggested.
+
+262. 02/12/24
+    i. Meeting Rooms II                      -- /meeting-rooms-ii/                                -- Time :  <40 min         -- Difficulty : Medium
+    // Premium Problem. Completed Interval section in Neetcode. Solved it on NeetCode & LintCode (runtime beats 92.60% in LintCode at 262ms) // LintCode: /problem/919/
+
+    ii. *Identify the Largest Outlier in an Array                                                 -- Time :  N/A             -- Difficulty : Medium
+                                             -- /identify-the-largest-outlier-in-an-array/
+    // Appeared in WeeklyContest426. Runtime is best.
+
+
+263. 03/12/24
+    i. ^Multiply Strings                   -- Revised. Runtime could be improved (3ms -> 1ms).
+
+*** Completed NeetCode, now just have to go through it again & also solve similar problems.
 
 
 ***. **/**/**

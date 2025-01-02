@@ -668,7 +668,7 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 160. 11/01/24
     i. *Construct Binary Tree from Inorder and Postorder Traversal                               -- Time :   N/A            -- Difficulty : Medium
                                             -- /construct-binary-tree-from-inorder-and-postorder-traversal/
-    // Needed help, the core is much clearer now. Worth it. :), Runtime could be improved (2ms -> 0ms)
+    // Needed help, the core concept is much clearer now. Worth it. :), Runtime could be improved (2ms -> 0ms)
 
 161. 12/01/24
     i. Symmetric Tree                       -- /symmetric-tree/                                  -- Time : < 5 min         -- Difficulty : Easy
@@ -749,7 +749,8 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     // Needed help, appeared on WeeklyContest 383. Couldn't solve there, String Pattern matching algorithm. ;(. Runtime must be improved (0ms solution is easier to understand maybe).
 
 178. 08/02/24
-    i. *Median of two sorted arrays
+    i. *Median of two sorted arrays          -- /median-of-two-sorted-arrays/                    -- Time :  N/A              -- Difficulty : Hard
+    // Need to revise.
 
 179. 09/02/24
     i. Subarray Sum Equals K                 -- /subarray-sum-equals-k/                          -- Time : < 20 min          -- Difficulty : Medium
@@ -1143,12 +1144,66 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 
 *** Completed NeetCode, now just have to go through it again & also solve similar problems.
 
+264. 04/12/24
+    i. ^Sliding Window Maximum             -- Improved Runtime. Runtime beats 98.53% now.
+
+265. 05/12/24
+    i. *Maximize the Number of Target Nodes After Connecting Trees I                              -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximize-the-number-of-target-nodes-after-connecting-trees-i/
+    // Appeared on WeeklyContest426, couldn't understand the problem statement, let alone solve it. Still can't get it.
+    // Understood the solution, then implemented it. Runtime is 510ms, best is 33ms (but it goes over my head).
+
+    
+266. 07/12/24
+    i. *Partition Equal Subset Sum          -- Revised & improved runtime (500ms+ -> 25ms)
+
+267. 11/12/24
+    i. *Maximum Subarray Sum With Length Divisible by K                                           -- Time :  N/A             -- Difficulty : Medium
+                                            -- /maximum-subarray-sum-with-length-divisible-by-k/
+    // Appeared on WeeklyContest427, couldn't solve it then. Runtime could be improved. (7ms -> 4ms). Need to revise must.
+
+268. 12/12/24
+    i. Group Anargrams                     -- Improved runtime (15ms -> 5ms).
+    // Learned a good approach to solve these type of string problem.
+
+269. 13/12/24
+    i. *Maximum Area Rectangle With Point Constraints I                                           -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximum-area-rectangle-with-point-constraints-i/
+    // Came up in WeekContest427, couldn't solved it. Runtime could be improved (17->9ms->1ms). Need to revise.
+
+270. 22/12/24
+    i. *Maximum Number of Distinct Elements After Operations                                      -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximum-number-of-distinct-elements-after-operations/
+    // Kinda DP problem, came in WeeklyContest429 (didn't participate though). Need to revise.
+
+271. 23/12/24
+    i. *Maximize Amount After Two Days of Conversions                                             -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximize-amount-after-two-days-of-conversions/
+    // Graph problem from WeeklyContest428. Need to revise.
+
+
+
+##################################           2025           ###############################################
+########### :)
+
+
+
+272. 01/01/25
+    i. *Design HashSet                     -- /design-hashset/                                    -- Time : N/A              -- Difficulty: Easy
+    i. Design Hashmap                      -- /design-hashmap/                                    -- Time : < 10 min         -- Difficulty: Easy
+
+273. 02/01/25
+    i. Sort an Array                       -- /sort-an-array/                                     -- Time : < 15 min         -- Difficulty: Medium
+    // Used Merge Sort, runtime could be half (22ms->11ms)
+    ii.Concatenation of Array              -- /concatenation-of-array/                            -- Time : < 7 min          -- Difficulty: Easy
+
+
 
 ***. **/**/**
     i. *Dummy problem name                 -- /dummy-problem-name-just-to-see/                    -- Time :  N/A             -- Difficulty : Medium
 
 ***. **/**/**
     i. Long long dummy dummy dummy dummy dummy problem                                            -- Time :  N/A             -- Difficulty : Hard
-
                                            -- /long dummy dummy dummy dummy dummy problem/
 
+*** Page Last.

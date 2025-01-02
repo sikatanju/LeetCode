@@ -1,34 +1,22 @@
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.Arrays;
 
 public class PartitionEqualSubsetSum {
     public boolean canPartition(int[] nums) {
         int sum = 0;
-        for (int temp: nums)
-            sum += temp;
-
+        sum = Arrays.stream(nums).sum();
         if (sum % 2 != 0)
             return false;
+
         sum /= 2;
 
-        Set<Integer> set = new HashSet<>();
-        set.add(0);
+        boolean[] dp = new boolean[sum+1];
+        dp[0] = true;
         for (int num: nums) {
-            if (set.contains(num))  {
-                Set<Integer> tempSet = new HashSet<>(set);
-                for(var each: tempSet)
-                    set.add(num+each);
-            }
-            else    {
-                Set<Integer> tempSet = new HashSet<>(set);
-                for(var each: tempSet)
-                    set.add(num+each);
-
-                set.add(num);
+            for (int i=sum; i>= num; i--)   {
+                dp[i] = dp[i] || dp[i-num];
             }
         }
-        return set.contains(sum);
+        return dp[sum];
     }
 }
 
@@ -57,7 +45,37 @@ class Solution {
             }
         }
         return dp[sum];
-
     }
 }
+ */
+
+/* Our previous solution:
+public boolean canPartition(int[] nums) {
+        int sum = 0;
+        for (int temp: nums)
+            sum += temp;
+
+        if (sum % 2 != 0)
+            return false;
+
+        sum /= 2;
+
+        Set<Integer> set = new HashSet<>();
+        set.add(0);
+        for (int num: nums) {
+            if (set.contains(num))  {
+                Set<Integer> tempSet = new HashSet<>(set);
+                for(var each: tempSet)
+                    set.add(num+each);
+            }
+            else    {
+                Set<Integer> tempSet = new HashSet<>(set);
+                for(var each: tempSet)
+                    set.add(num+each);
+
+                set.add(num);
+            }
+        }
+        return set.contains(sum);
+    }
  */

@@ -1,12 +1,34 @@
-import java.lang.reflect.Array;
+import com.sun.source.tree.Tree;
+
 import java.util.*;
 
 public class CodeRunner {
+
     public static void main(String[] args) {
-        int[] nums = {1,2,1,2,3,1,2,3,4};
-        System.out.println(Arrays.toString(new SortAnArray().sortArray(nums)));
+        String str = "NWSE";
+
+        TreeNode two2 = new TreeNode(2);
+        TreeNode twoLeft = new TreeNode(2);
+        twoLeft.left = two2;
+
+        TreeNode two3 = new TreeNode(2);
+        TreeNode four = new TreeNode(4);
+        TreeNode threeRight = new TreeNode(3);
+        threeRight.left = two3;
+        threeRight.right = four;
+
+        TreeNode root = new TreeNode(1);
+        root.left = twoLeft;
+        root.right = threeRight;
+        System.out.println(new Solution().removeLeafNodes(root, 2));
     }
 }
+
+/*
+0, 1, -1
+1, -2, 3
+2, -3, 4
+ */
 //int[] ara = {5};
 //        int[] ara = {10};
 //        System.out.println(new BestTimeToBuyAndSellStockWithCooldown().maxProfit(ara));

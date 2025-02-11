@@ -1197,6 +1197,132 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     // Used Merge Sort, runtime could be half (22ms->11ms)
     ii.Concatenation of Array              -- /concatenation-of-array/                            -- Time : < 7 min          -- Difficulty: Easy
 
+274. 03/01/25
+    i. Range Sum Query 2D - Immutable      -- /range-sum-query-2d-immutable/                      -- Time :  < 45 min        -- Difficulty : Medium
+    // Prefix Sum problem, Runtime could be improved (116ms -> 101ms). Need to learn the 2D prefix logic
+
+275. 04/01/25
+    i. *First Positive Integer             -- /first-missing-positive/                            -- Time :  N/A             -- Difficulty : Hard
+    // Hard problem, learned about `Cycle Sort Algorithm`, used it to solve the problem. Could be revised.
+
+276. 05/01/25
+    i. Attended Weekly Contest 431. Didn't go well.
+
+277. 06/01/25
+    i. # 3Sum -- revised & improved runtime (35ms -> 24ms).
+
+278. 07/01/25
+    i. 4Sum                                -- /4sum/                                              -- Time :  < 17 min        -- Difficulty : Medium
+    // Runtime could be improved (24ms -> 7ms).
+
+279. 08/01/25
+    i. *Boats to Save People               -- /boats-to-save-people/                              -- Time :  N/A             -- Difficulty : Medium
+    // Pretty easy problem, didn't read the problem description thoroughly.
+
+280. 09/01/25
+    i. Find K Closest Elements             -- /find-k-closest-elements/                           -- Time :  < 57 min        -- Difficulty : Medium
+    // Took 10-12 minutes more, runtime could also be better (14ms->0ms).
+
+281. 10/01/25
+    i. Asteroid Collision                  -- /asteroid-collision/                                -- Time :  < 33 min        -- Difficulty : Medium
+    // Stack problem, took 2 submissions. Runtime should be improved (185ms -> 1ms)
+
+282. 11/01/25
+    i. Decode String                       -- /decode-string/                                     -- Time :  < 27 min        -- Difficulty : Medium
+    // Stack Problem, accepted on first try, runtime could be improved (2ms -> 0ms).
+
+283. 12/01/25
+    i. Attended WeeklyContest432, didn't go well.
+
+284. 13/01/25
+    i. *Maximum Amount of Money Robot Can Earn                                                    -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximum-amount-of-money-robot-can-earn/
+    // Camp up in the weeklyContest432, couldn't solve it then. Runtime is fine.
+
+285. 14/01/25
+    i. Online Stock Span                   -- /online-stock-span/                                 -- Time: < 20 min          -- Difficulty : Medium
+    // Runtime is horrible, need to learn the optimized solution.
+
+286. 15/01/25
+    i.  Baseball Game                      -- /baseball-game/                                     -- Time: < 7 min           -- Difficulty : Easy
+    ii. Reverse String                     -- /reverse-string/                                    -- Time: < 3 min           -- Difficulty : Easy
+    // Pretty easy problems. Runtime is better than most.
+
+287. 16/01/25
+    i. Maximum Frequency Stack             -- /maximum-frequency-stack/                           -- Time: < 44 min          -- Difficulty : Hard
+    // Runtime is better than 49%, it could be improved (33ms -> 24ms).
+
+288. 17/01/25
+    i. LFU Cache                           -- /lfu-cache/                                         -- Time: < 65 min          -- Difficulty : Hard
+    // Runtime is better than 95%, it could be improved (50ms -> 35ms).
+
+289. 18/01/25
+    i. Capacity To Ship Packages Within D Days                                                    -- Time : < 25 min         -- Difficulty : Medium
+                                           -- /capacity-to-ship-packages-within-d-days/
+    // Similar to Koko Eating Bananas, revised that first, then solved it. Runtime is better than 99.79% at 7ms.
+
+290. 19/01/25
+    i. Attended WeeklyContest 433, ranking is better than before, although solved one problem.
+
+291. 20/01/25
+    i. Guess Number Higher or Lower        -- /guess-number-higher-or-lower/                      -- Time: < 15 min          -- Difficulty : Easy
+    // Took two submission, overlooked one edge cases. Runtime is best.
+
+292. 22/01/25
+    i. Design Circular Queue               -- /design-circular-queue/                             -- Time: < 25 min          --  Difficulty : Medium
+    // LinkedList problem, accepted on first try, runtime is good enough.
+
+293. 28/01/25
+    i. *Search in Rotated Sorted Array II  -- /search-in-rotated-sorted-array-ii/                 -- Time :  N/A             -- Difficulty : Medium
+    // Needed Help, runtime is best.
+
+294. 29/01/25
+    i. *Longest Happy String               -- /longest-happy-string/                              -- Time :  N/A             -- Difficulty : Medium
+    // Needed Help, runtime is best.
+
+295. 30/01/25
+    i. Reorganize String                   -- /reorganize-string/                                 -- Time: < 10 min          --  Difficulty : Medium
+    // Similar to Longest Happy String, solved it using same approach. Runtime is at 1ms (best is 0ms).
+
+296. 01/02/25
+    i. Single-Threaded CPU                 -- /single-threaded-cpu/                               -- Time: < 30 min          --  Difficulty : Medium
+    // Heap Problem, runtime could be improved (168ms -> 88ms).
+
+297. 02/02/25
+    i. Participated in WeeklyContest435, didn't do well :(
+
+298. 03/02/25
+    i. Car Pooling                         -- /car-pooling/                                      -- Time: < 10 min          --  Difficulty : Medium
+    // Heap problem, took a couple of submissions, runtime is better than 46% (6ms). Runtime could be improved (6ms -> 1ms).
+
+299. 04/02/25
+    i. Letter Case Permutation             -- /letter-case-permutation/                           -- Time: < 17 min          --  Difficulty : Medium
+    // Accepted on first submission, similar to 'Subsets' problem, runtime is 2ms (best is 1ms).
+
+300. 05/02/25
+    i. *Partition to K Equal Sum Subsets   -- /partition-to-k-equal-sum-subsets/                  -- Time :  N/A             -- Difficulty : Medium
+    // Backtracking problem, needed help. Runtime is almost best 3ms (best is 1ms).
+
+301. 07/02/25
+    i. *Extra Characters in a String       -- /extra-characters-in-a-string/                      -- Time :  N/A             -- Difficulty : Medium
+    // Trie + Backtracking problem, Needed help. Runtime is best.
+
+302. 08/02/25
+    i. *Maximum Manhattan Distance After K Changes                                                -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximum-manhattan-distance-after-k-changes/
+    // Appeared on WeeklyContest435. Runtime is better than 95%.
+
+303. 09/02/25
+    i. Participated in WeeklyContest436, didn't go well.
+
+304. 10/02/25
+    i. *Assign Elements to Groups with Constraints                                                -- Time :  N/A             -- Difficulty : Medium
+                                           -- /assign-elements-to-groups-with-constraints/
+    // Appeared in WeeklyContest436, couldn't solve then. Classic problem. Must revise.
+
+305. 11/02/25
+    i. Delete Leaves With a Given Value    -- /delete-leaves-with-a-given-value/                  -- Time: < 20 min          --  Difficulty : Medium
+    // Runtime is bad, need to improve runtime.
 
 
 ***. **/**/**
@@ -1206,4 +1332,4 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     i. Long long dummy dummy dummy dummy dummy problem                                            -- Time :  N/A             -- Difficulty : Hard
                                            -- /long dummy dummy dummy dummy dummy problem/
 
-*** Page Last.
+*** Bottom of the page // Last_section.

@@ -2,10 +2,8 @@ import java.util.HashSet;
 import java.util.List;
 
 public class WordBreak {
-
-    /*
     public boolean wordBreak(String s, List<String> wordDict) {
-        JustForPractice.Trie trie = new JustForPractice.Trie();
+        Trie trie = new Trie();
         for (var word: wordDict)
             trie.addWord(word);
 
@@ -16,7 +14,7 @@ public class WordBreak {
         for (int i=0; i<len; i++)   {
             if (dp[i])  {
                 int j = i;
-                JustForPractice.Trie temp = trie;
+                Trie temp = trie;
                 while (j < len && temp.children[arr[j]-'a'] != null) {
                     temp = temp.children[arr[j]-'a'];
                     j++;
@@ -27,24 +25,26 @@ public class WordBreak {
         }
         return dp[len];
     }
-    class Trie  {
+    class Trie {
         public Trie[] children;
         public boolean isWord;
-        Trie()  {
+
+        Trie() {
             this.children = new Trie[26];
             this.isWord = false;
         }
-        public void addWord(String str)   {
-            Trie temp = this;
-            for (char ch: str.toCharArray())    {
-                if (temp.children[ch-'a'] == null)
-                    temp.children[ch-'a'] = new Trie();
 
-                temp = temp.children[ch-'a'];
+        public void addWord(String str) {
+            Trie temp = this;
+            for (char ch : str.toCharArray()) {
+                if (temp.children[ch - 'a'] == null)
+                    temp.children[ch - 'a'] = new Trie();
+
+                temp = temp.children[ch - 'a'];
             }
             temp.isWord = true;
         }
-    }*/
+    }
 }
 
 

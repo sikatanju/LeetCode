@@ -97,7 +97,3 @@ public class WeeklyContest424 {
         return true;
     }
 }
-
-class Solution {
-
-}

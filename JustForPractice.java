@@ -1,8 +1,41 @@
-import java.nio.DoubleBuffer;
 import java.util.*;
 
 public class JustForPractice {
-    public int beautifulSplits(int[] nums) {
+    public int minEatingSpeed(int[] piles, int h) {
+        int maxNum = -1;
+        for (int num: piles)    {
+            if (maxNum < num)
+                maxNum = num;
+        }
+        if (piles.length == h)
+            return maxNum;
+
+        long low = 1, high = maxNum-1, min = maxNum;
+        while (low <= high) {
+            long mid = (low+high)/2;
+            if (canEatAll(mid, piles, h))   {
+                min = Math.min(min, mid);
+                high = mid-1;
+            }   else    {
+                low = mid+1;
+            }
+        }
+        return (int) min;
+    }
+
+    private boolean canEatAll(long banana, int[] piles, int h)  {
+        long count = 0;
+        for (int num: piles)    {
+            count += (int)num/banana;
+            if (num % banana != 0)
+                count++;
+        }
+        return count <= h;
+    }
+}
+
+/*
+public int beautifulSplits(int[] nums) {
         int n = nums.length;
         int[][] lcp = new int[n + 1][n + 1];
         for (int i = n - 1; i >= 0; i--) {
@@ -27,7 +60,7 @@ public class JustForPractice {
         }
         return ans;
     }
-}
+ */
 /*
 class Solution {
     public int beautifulSplits(int[] nums) {

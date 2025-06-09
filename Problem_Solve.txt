@@ -1324,6 +1324,194 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
     i. Delete Leaves With a Given Value    -- /delete-leaves-with-a-given-value/                  -- Time: < 20 min          --  Difficulty : Medium
     // Runtime is bad, need to improve runtime.
 
+306. 13/02/25
+    i. Insert into a Binary Search Tree    -- /insert-into-a-binary-search-tree/                  -- Time: < 10 min          --  Difficulty : Medium
+    // Runtime is best. Hopefully we're covered in Trees DS.
+
+307. 14/02/25
+    i. Open the Lock                       -- /open-the-lock/                                     -- Time: < 55 min          --  Difficulty : Medium
+    // Needed a little help, solved it mostly by myself. Classic BFS problem. Runtime is better than 85% (at 76ms, best is 5ms).
+
+308. 15/02/25
+    i. Accounts Merge j                    -- /accounts-merge/                                    -- Time: < 40 min          --  Difficulty : Medium
+    // Solved it on my own, runtime must be improved (166ms -> 14ms). Best is 0ms.
+
+309. 17/02/25
+    i. *Select K Disjoint Special Substrings                                                      -- Time :  N/A             -- Difficulty : Medium
+                                           -- /select-k-disjoint-special-substrings/
+    // Appeared in WeeklyContest437. Good problem. Runtime is almost best at 8ms (beats 93%).
+
+310. 19/02/25
+    i. Eat Pizzas!                         -- /eat-pizzas/                                        -- Time: < 20 min          --  Difficulty : Medium
+    // Appeared in WeeklyContest437. Runtime is good at 62ms (beats 74%).
+
+311. 20/02/25
+    i. !Assign Elements to Groups with Constraints  -- Improved Runtime (800+ms -> 9ms). Learned a very intuitive approach.
+
+312. 21/02/25
+    i. *Subarray Sums Divisible by K       -- /subarray-sums-divisible-by-k/                      -- Time :  N/A             -- Difficulty : Medium
+    // Learned from multiple sources, found a great resource USACO Guide.
+
+313. 22/02/25
+    i. String Compression                  -- /string-compression/                                -- Time: < 33 min          --  Difficulty : Medium
+    // Took a couple of submissions, got accepted on third attempt. Runtime is almost best (1ms).
+
+314. 23/02/25
+    i. Participated in WeeklyContest438 -- Ranking is my all time top. :) (<3500)
+
+315. 25/02/25
+    i. #Subarray Sum Equals K              -- Improved runtime by a mile. (used prefix sum).
+
+316. 27/02/25
+    i. *Number of Sub-arrays With Odd Sum  -- /number-of-sub-arrays-with-odd-sum/                 -- Time :  N/A             -- Difficulty : Medium
+    // Needed help. Runtime could be improved.
+
+
+316. 23/03/25
+    i. Properties Graph                    -- /properties-graph/                                  -- Time : < 30 min         -- Difficulty : Medium
+    // Runtime is better than 99%.
+
+317. 28/03/25
+    i. *Choose K Elements With Maximum Sum -- /choose-k-elements-with-maximum-sum/                -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, solved it using the same intuition I had. Runtime beats 68% at 157ms. (O(nlog(n)) -- Runtime complexity
+
+318. 03/04/25
+    i. *Maximum Number of Points From Grid Queries                                                -- Time :  N/A             -- Difficulty : Hard
+                                           -- /maximum-number-of-points-from-grid-queries/
+    // Understood it really well, runtime could be improved. (182ms -> 94ms -> 32ms).
+
+319. 08/04/25
+    i. *Maximize Active Section with Trade I                                                      -- Time :  N/A             -- Difficulty : Medium
+                                           -- /maximize-active-section-with-trade-i/
+    // Needed help, runtime is good enough.
+
+320. 09/04/25
+    i. *Closest Equal Element Queries      -- /closest-equal-element-queries/                     -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, contest problem, runtime is fine.
+
+321. 12/04/25
+    i. Matchsticks to Square               -- /matchsticks-to-square/                             -- Time : < 15 min         -- Difficulty : Medium
+    // Similar to another problem, runtime is good enough.
+
+322. 13/04/25
+    i. Attended WeeklyContest445. -> Ranking should have been better.
+
+323. 15/04/25
+    i. *Minimum Height Trees               -- /minimum-height-trees/                              -- Time :  N/A             -- Difficulty : Medium
+    // Very intuitive problem, runtime could be improved (40ms -> 14ms).
+
+324. 19/04/25
+    i. *Count the Number of Fair Pairs     -- /count-the-number-of-fair-pairs/                    -- Time :  N/A             -- Difficulty : Medium
+    // Runtime could be improved. Should learn the two pointers approach.
+
+325. 21/04/25
+    i. *Find X Value of Array I            -- /find-x-value-of-array-ii/                          -- Time :  N/A             -- Difficulty : Medium
+
+
+326. 22/04/25
+    i. *Count the Number of Good Subarrays -- /count-the-number-of-good-subarrays/                -- Time :  N/A             -- Difficulty : Medium
+    // Need to revise, very intuitive problem. Solve similar ones. Runtime is good enough.
+
+327. 28/04/25
+    i. *Count Covered Buildings            -- /count-covered-buildings/                           -- Time :  N/A             -- Difficulty : Medium
+    // Appeared in WeeklyContest447. Runtime is good enough.
+
+328. 01/05/25
+    i. Path Existence Queries in a Graph I -- /path-existence-queries-in-a-graph-i/               -- Time :  < 15 min        -- Difficulty : Medium
+    // Union find problem, runtime is good enough.
+
+329. 04/05/25
+    i. Attended WeeklyContest448, didn't go very well, only solved 1 problem.
+
+330. 05/05/25
+    i. *Fill a Special Grid                --/fill-a-special-grid/                                -- Time :  N/A             -- Difficulty : Medium
+    // From WC448, simple divide & conquer problem.
+
+331. 06/05/25
+    i. Cleared the basic of Bit Manipulation, mostly easy ones, solved a new ones also.
+
+332. 07/05/25
+    i. My Calendar I                       -- /my-calendar-i/                                     -- Time :  < 15 min        -- Difficulty : Medium
+    // Needed a hint, but cleared it on my own, Runtime should be improved.
+
+333. 09/05/25
+    i. *My Calendar II                     --/my-calendar-ii/                                     -- Time :  N/A             -- Difficulty : Medium
+    // Needed help, very intuitive interval problem.
+
+334. 10/05/25
+    i. Minimum Equal Sum of Two Arrays After Replacing Zeros                                      -- Time :  < 20 min        -- Difficulty : Medium
+                                           -- /minimum-equal-sum-of-two-arrays-after-replacing-zeros/
+    // Accepted on first try, Greedy problem, runtime is fine.
+
+335. 11/05/25
+    i. Participated in WeeklyContest 449 -- Ranked in early 4000s
+
+336. 12/05/25
+    i. *Find the Longest Equal Subarray    -- /find-the-longest-equal-subarray/                   -- Time :  N/A             -- Difficulty : Medium
+    // Needed a little help, sliding window problem. Runtime is good enough (83ms), can be reduced to 12ms.
+
+337. 13/05/25
+    i. Count Complete Subarrays in an Array                                                       -- Time :  < 20 min        -- Difficulty : Medium
+                                           -- /count-complete-subarrays-in-an-array/
+    // Accepted on first try. Runtime improved. Sliding Window problem.
+
+338. 14/05/25
+    i. Maximum Beauty of an Array After Applying Operation                                        -- Time :  < 15 min        -- Difficulty : Medium
+                                           -- /maximum-beauty-of-an-array-after-applying-operation/
+    // Runtime is slow, need to improve runtime. (139ms -> 7ms).
+
+339. 16/05/25
+    i. Length of Longest Subarray With at Most K Frequency                                        -- Time :  < 15 min        -- Difficulty : Medium
+                                           -- /length-of-longest-subarray-with-at-most-k-frequency/
+    // Accepted on first try. Runtime should be improved (83ms -> 35ms).
+
+340. 17/05/25
+    i. Revised Evaluate Division. -> Need to solve similar problems.
+
+341. 18/05/25
+    i. Participated in WeeklyContest 450, didn't go very well.
+
+342. 19/05/25
+    i. *Minimum Swaps to Sort by Digit Sum -- /minimum-swaps-to-sort-by-digit-sum/                -- Time :  N/A             -- Difficulty : Medium
+    // From WeeklyContest450, runtime is good.
+
+343. 20/05/25
+    i. *Grid Teleportation Traversal       -- /grid-teleportation-traversal/                      -- Time :  N/A             -- Difficulty : Medium
+    // BFS problem from WeeklyContest450, understood it well, runtime is also fine.
+
+344. 21/05/25
+    i. Populating Next Right Pointers in Each Node                                                -- Time :  < 20min         -- Difficulty : Medium
+                                           -- /populating-next-right-pointers-in-each-node/
+    // Implemented using simple BFS, just added an extra field unnecessarily, could be removed. Runtime could also be improved (4ms -> 0ms).
+    ii. # Revised Course Schedule, learned Khans' algorithm (Topological Sort) from William Fiset.
+
+345. 23/05/25
+    i. Number of Provinces                 -- /number-of-provinces/description/                   -- Time :  < 20min         -- Difficulty : Medium
+    // Needed help to understand the problem, implemented by Myself. Need to learn the Union Find solution.
+
+346. 24/05/25
+    i. Find if Path Exists in Graph        -- /find-if-path-exists-in-graph/                      -- Time :  < 15min         -- Difficulty : Easy
+    // Learned Union Find from William Fiset, solved this using the Union Find. Runtime is good enough.
+
+347. 25/05/25
+    i. Participated in WeeklyContest451, didn't go very well. Solved 2 problems, but time was too long.
+
+348. 28/05/25
+    i. *Redundant Connection II            -- /redundant-connection-ii/                           -- Time :  N/A             -- Difficulty : Hard
+    // It was a Hard problem, implemented using Union Find. I've taken a liking to this Data Structure.
+
+349. 30/05/25
+    i. *Find Closest Node to Given Two Nodes                                                      -- Time :  N/A             -- Difficulty : Medium
+                                           -- /find-closest-node-to-given-two-nodes/
+    // Daily problem, Graph kind of problem. Runtime is fine.
+
+350. 08/06/25
+    i. Participated in WeeklyContest453, went real bad. Couldn't even solve one problem. Should have solved at least 2.
+
+351. 09/06/25
+    i. *Transform Array to All Equal Elements                                                     -- Time :  N/A             -- Difficulty : Medium
+                                           -- /transform-array-to-all-equal-elements/
+    // Used Greedy Approach. Should have solved myself. :(
 
 ***. **/**/**
     i. *Dummy problem name                 -- /dummy-problem-name-just-to-see/                    -- Time :  N/A             -- Difficulty : Medium

@@ -1,3 +1,5 @@
+/*
+
 public class WeeklyContest408 {
     class SolutionW {
 
@@ -88,3 +90,5 @@ public class WeeklyContest408 {
         return numOfOne >= numOfZero;
     }
 }
+
+*/

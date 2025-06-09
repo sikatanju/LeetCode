@@ -1,6 +1,41 @@
-import java.util.*;
-
+//import java.util.*;
 public class CourseSchedule {
+/* Khan's Algorithm (Topological Sort):
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        List<List<Integer>> adjList = new ArrayList<>();
+
+        for (int i=0; i<numCourses; i++)
+            adjList.add(new ArrayList<>());
+
+        int[] inDegrees = new int[numCourses];
+        for (int[] edge: prerequisites) {
+            adjList.get(edge[0]).add(edge[1]);
+            inDegrees[edge[1]]++;
+        }
+
+        Queue<Integer> queue = new ArrayDeque<>();
+
+        for (int i=0; i<numCourses; i++)    {
+            if (inDegrees[i] == 0)
+                queue.offer(i);
+        }
+
+        int idx = 0;
+        while (!queue.isEmpty())    {
+            int node = queue.poll();
+            idx++;
+            for (var num: adjList.get(node))    {
+                inDegrees[num]--;
+                if (inDegrees[num] == 0)
+                    queue.offer(num);
+            }
+        }
+        return idx == numCourses;
+    }
+*/
+}
+
+/* Myone:
     private class Node  {
         private int node;
         public Node()   {}
@@ -68,9 +103,7 @@ public class CourseSchedule {
         visited.add(node);
         return false;
     }
-}
-
-
+ */
 /* Best Runtime : 1ms :
 
 class Solution {

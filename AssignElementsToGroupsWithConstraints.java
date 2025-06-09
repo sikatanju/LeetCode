@@ -1,7 +1,38 @@
-import java.util.HashMap;
-import java.util.Map;
+import java.util.Arrays;
 
 public class AssignElementsToGroupsWithConstraints {
+    public int[] assignElements(int[] groups, int[] elements) {
+        int n = groups.length;
+        int[] res = new int[n];
+
+        if (elements[0] == 1)
+            return res;
+
+        int max = Arrays.stream(groups).max().getAsInt();
+        int[] sieve = new int[max+1];
+        Arrays.fill(sieve, -1);
+
+        for (int i=0; i<elements.length; i++)   {
+            int num = elements[i];
+            if (num <= max && sieve[num] == -1) {
+                while (num <= max)  {
+                    if (sieve[num] == -1)
+                        sieve[num] = i;
+
+                    num += elements[i];
+                }
+            }
+        }
+        for (int i=0; i<n; i++)
+            res[i] = sieve[groups[i]];
+
+        return res;
+    }
+}
+
+
+/*
+
     public int[] assignElements(int[] groups, int[] elements) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i=0; i<elements.length; i++)
@@ -23,4 +54,4 @@ public class AssignElementsToGroupsWithConstraints {
         }
         return idx == Integer.MAX_VALUE ? -1: idx;
     }
-}
+ */

@@ -2,9 +2,6 @@
 
 public class CodeRunner {
     public static void main(String[] args) {
-
-        System.out.println(new Solution());
-        System.out.println(new Solution());
     }
 
     public static int[][] convertToArray(String input) {

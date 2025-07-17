@@ -1,8 +1,32 @@
-import java.util.HashSet;
-import java.util.Set;
+// import java.util.HashSet;
+// import java.util.Set;
 
-public class LongestRepeatingCharacterReplacement {
-    public int characterReplacement(String str, int k) {
+// public class LongestRepeatingCharacterReplacement {
+// }
+
+/* New solution:
+ class Solution {
+    public int characterReplacement(String s, int k) {
+        int[] freq = new int[26];
+        int n = s.length(), l = 0, h = 0, maxFreq = -1, max = -1;
+        while (h < n)   {
+            int idx = s.charAt(h)-'A';
+            freq[idx]++;
+            maxFreq = Math.max(freq[idx], maxFreq);
+            while ((h-l+1)-maxFreq > k) {
+                freq[s.charAt(l)-'A']--;
+                l++;
+            }
+            max = Math.max(h-l+1, max);
+            h++;
+        }
+        return max;
+    }
+}
+ */
+
+/* // My naive approach:
+      public int characterReplacement(String str, int k) {
         int len = str.length();
         if (len == 1)
             return 1;
@@ -71,7 +95,7 @@ public class LongestRepeatingCharacterReplacement {
 
         return max;
     }
-}
+*/
 
 /* 3ms runtime solution :
 class Solution {

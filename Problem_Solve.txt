@@ -1140,12 +1140,12 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 
 
 263. 03/12/24
-    i. ^Multiply Strings                   -- Revised. Runtime could be improved (3ms -> 1ms).
+    i. ~Multiply Strings                   -- Revised. Runtime could be improved (3ms -> 1ms).
 
 *** Completed NeetCode, now just have to go through it again & also solve similar problems.
 
 264. 04/12/24
-    i. ^Sliding Window Maximum             -- Improved Runtime. Runtime beats 98.53% now.
+    i. ~Sliding Window Maximum             -- Improved Runtime. Runtime beats 98.53% now.
 
 265. 05/12/24
     i. *Maximize the Number of Target Nodes After Connecting Trees I                              -- Time :  N/A             -- Difficulty : Medium
@@ -1513,6 +1513,25 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
                                            -- /transform-array-to-all-equal-elements/
     // Used Greedy Approach. Should have solved myself. :(
 
+352. 11/06/25
+    i. *Count the Number of Computer Unlocking Permutations                                       -- Time :  N/A             -- Difficulty : Medium
+                                           -- /count-the-number-of-computer-unlocking-permutations/description/
+    // Got the idea right, didn't implement it.
+
+353. 15/06/25
+    i. *Max Difference You Can Get From Changing an Integer                                       -- Time :  N/A             -- Difficulty : Medium
+                                           -- /max-difference-you-can-get-from-changing-an-integer/
+    // Needed help to understand the problem, came up with the solution by myself.
+
+
+
+
+
+##################################           After a long break           ###############################################
+
+i. ~Longest Repeating Character Replacement  -- Revised, runtime is better than 98% at 6ms. Used Sliding Window Algorithm. 
+
+
 ***. **/**/**
     i. *Dummy problem name                 -- /dummy-problem-name-just-to-see/                    -- Time :  N/A             -- Difficulty : Medium
 
@@ -1521,3 +1540,7 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
                                            -- /long dummy dummy dummy dummy dummy problem/
 
 *** Bottom of the page // Last_section.
+
+
+
+

@@ -1531,6 +1531,20 @@ Total Problem Solved : 70   -- Easy : 37 -- Medium : 33;
 
 i. ~Longest Repeating Character Replacement  -- Revised, runtime is better than 98% at 6ms. Used Sliding Window Algorithm. 
 
+ii. ~3Sum      -- Revised. Used Sliding Window.
+
+27/07/25 -> i. ~Container With Most Water, revised improved runtime. (Two Pointer).
+
+30/07/25 -> i. ~Linked List Cycle -- Floyd Cycle Detection is used to improve the runtime from 5ms to 0ms.
+
+01/08/25 -> i.  ~Find the Duplicate Number -- Implemented using Floyd Hare and Tortoise Algorithm...
+            ii. ~Happy Number              -- Implemented using Floyd Hare and Tortoise Algorithm...
+
+02/08/25 -> i. Best Time to Buy and Sell Stock II -- Used Greedy and DP approach, learned both. Greedy performs better.
+            ii. Best Time to Buy and Sell Stock   -- Very simple one.
+        //  Next day -- Best Time to Buy and Sell Stock III -- Hard problem, learn the full fledge DP approach.
+
+03/09/25 -> i. ~MyCalender I, improved runtime, learned TreeMap approach.
 
 ***. **/**/**
     i. *Dummy problem name                 -- /dummy-problem-name-just-to-see/                    -- Time :  N/A             -- Difficulty : Medium

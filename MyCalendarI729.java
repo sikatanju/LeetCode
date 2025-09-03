@@ -1,35 +1,58 @@
-import java.util.ArrayList;
-import java.util.List;
+// import java.util.ArrayList;
+// import java.util.List;
+
+// import java.util.TreeMap;
 
 public class MyCalendarI729 {
-    class MyCalendar {
-        private List<int[]> list;
-        public MyCalendar() {
-            list = new ArrayList<>();
-        }
+    // Updated Accepted Solution
+    // class MyCalendar {
+    //     private TreeMap<Integer, Integer> cal;
 
-        public boolean book(int startTime, int endTime) {
-            if (list.isEmpty()) {
-                list.add(new int[]{startTime, endTime});
-                return true;
-            }   else    {
-                boolean check = true;
-                for (int[] arr: list)   {
-                    if (endTime <= arr[0] || (startTime >= arr[1])) {
-                        continue;
-                    }   else    {
-                        check = false;
-                        break;
-                    }
-                }
-                if (check)  {
-                    list.add(new int[]{startTime, endTime});
-                    return true;
-                }
-            }
-            return false;
-        }
-    }
+    //     public MyCalendar() {
+    //         this.cal = new TreeMap<>();        
+    //     }
+        
+    //     public boolean book(int startTime, int endTime) {
+    //         var prevHigh = this.cal.floorKey(startTime);
+    //         if (prevHigh != null && this.cal.get(prevHigh) > startTime)
+    //             return false;
+
+    //         if (this.cal.ceilingKey(startTime) != null && this.cal.ceilingKey(startTime) < endTime)
+    //             return false;
+
+    //         this.cal.put(startTime, endTime);
+    //         return true;
+    //     }
+    // }
+
+    // class MyCalendar {
+    //     private List<int[]> list;
+    //     public MyCalendar() {
+    //         list = new ArrayList<>();
+    //     }
+
+    //     public boolean book(int startTime, int endTime) {
+    //         if (list.isEmpty()) {
+    //             list.add(new int[]{startTime, endTime});
+    //             return true;
+    //         }   else    {
+    //             boolean check = true;
+    //             for (int[] arr: list)   {
+    //                 if (endTime <= arr[0] || (startTime >= arr[1])) {
+    //                     continue;
+    //                 }   else    {
+    //                     check = false;
+    //                     break;
+    //                 }
+    //             }
+    //             if (check)  {
+    //                 list.add(new int[]{startTime, endTime});
+    //                 return true;
+    //             }
+    //         }
+    //         return false;
+    //     }
+    // }
 
 }
 /* Best runtime: 12ms: (LinkedList approach).

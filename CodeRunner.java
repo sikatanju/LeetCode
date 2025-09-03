@@ -2,6 +2,7 @@
 
 public class CodeRunner {
     public static void main(String[] args) {
+        System.out.println(new Solution().isHappy(23));
     }
 
     public static int[][] convertToArray(String input) {
